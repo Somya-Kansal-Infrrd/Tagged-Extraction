@@ -1,242 +1,315 @@
 import json
-
-# 1. Load all JSON files
-
-with open("document.json", "r") as file:
-    documents = json.load(file)
-
-with open("page.json", "r") as file:
-    pages = json.load(file)
-
-with open("extraction_field.json", "r") as file:
-    extraction_fields = json.load(file)
-
-with open("sub_extraction_field.json", "r") as file:
-    sub_extraction_fields = json.load(file)
+import logging
+from typing import Any
 
 
-print("All files loaded successfully")
+# Logging configuration
 
-print("Documents:", len(documents))
-print("Pages:", len(pages))
-print("Extraction fields:", len(extraction_fields))
-print(
-    "Sub extraction fields:",
-    len(sub_extraction_fields)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
-# 2. Document ID
-document_id = (
-    "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1"
-)
-
-# 3. Find the complete document
-
-document = None
-
-for item in documents:
-    if item.get("_id") == document_id:
-        document = item
-        break
+logger = logging.getLogger(__name__)
 
 
-if document:
-    print("\nDocument found:")
-    print(document)
-else:
-    print("\nDocument not found")
+# Type aliases
+
+JsonObject = dict[str, Any]
+JsonList = list[JsonObject]
 
 
-# 4. Find all pages for this document
-
-document_pages = []
-
-for page in pages:
-    if page.get("documentId") == document_id:
-        document_pages.append(page)
+# Load JSON file
 
 
-print("\nPages found:", len(document_pages))
-
-for page in document_pages:
-    print(
-        "Page:",
-        page.get("_id"),
-        "| Page Number:",
-        page.get("pageNumber")
-    )
-
-# 5. Find Collateral Object List field
-
-collateral_field = None
-
-for field in extraction_fields:
-    if (
-        field.get("fieldName") == "Collateral"
-        and field.get("fieldType") == "Object List"
-    ):
-        collateral_field = field
-        break
+def load_json_file(file_name: str) -> Any:
+    """Load and return JSON data from a file."""
+    with open(file_name, "r", encoding="utf-8") as file:
+        return json.load(file)
 
 
-if collateral_field:
-    print("\nCollateral Object List field found:")
-    print(collateral_field)
+# Find document
 
-    collateral_id = collateral_field.get("_id")
+def find_document(
+    documents: JsonList,
+    document_id: str,
+) -> JsonObject | None:
+    """Find a document using its ID."""
+    for document in documents:
+        if document.get("_id") == document_id:
+            return document
 
-    print("\nCollateral _id:", collateral_id)
-
-else:
-    print("\nCollateral Object List field not found")
-    collateral_id = None
+    return None
 
 
-# 6. Find all ADD and TAGGED sub-extraction records
-#    for the Collateral field
+# Find pages for document
 
-collateral_sub_fields = []
 
-if collateral_id:
+def find_document_pages(
+    pages: JsonList,
+    document_id: str,
+) -> JsonList:
+    """Return all pages belonging to the document."""
+    return [
+        page
+        for page in pages
+        if page.get("documentId") == document_id
+    ]
+
+
+# Find Collateral Object List field
+
+def find_collateral_field(
+    extraction_fields: JsonList,
+) -> JsonObject | None:
+    """Find the Collateral Object List extraction field."""
+    for field in extraction_fields:
+        if (
+            field.get("fieldName") == "Collateral"
+            and field.get("fieldType") == "Object List"
+        ):
+            return field
+
+    return None
+
+
+# Find ADD and TAGGED records
+
+
+def find_collateral_sub_fields(
+    sub_extraction_fields: JsonList,
+    collateral_id: str,
+) -> JsonList:
+    """Find all ADD and TAGGED Collateral records."""
+    matching_records: JsonList = []
 
     for sub_field in sub_extraction_fields:
-
-        # Same extraction field
         if sub_field.get("extractionFieldId") != collateral_id:
             continue
 
-        # Only ADD and TAGGED records
-        if sub_field.get("taggedStatus") not in [
+        if sub_field.get("taggedStatus") not in {
             "ADD",
-            "TAGGED"
-        ]:
+            "TAGGED",
+        }:
             continue
 
-        collateral_sub_fields.append(sub_field)
+        matching_records.append(sub_field)
+
+    return matching_records
 
 
-print(
-    "\nCollateral ADD/TAGGED records found:",
-    len(collateral_sub_fields)
-)
+# Filter records having hidden == false
 
-for record in collateral_sub_fields:
-    print(
-        "ID:",
-        record.get("_id"),
-        "| Status:",
-        record.get("taggedStatus")
+
+def filter_visible_records(
+    records: JsonList,
+) -> JsonList:
+    """
+    Return complete records containing at least one
+    value where hidden is False.
+    """
+    final_records: JsonList = []
+
+    for record in records:
+        for value in record.get("values", []):
+            if value.get("hidden") is False:
+                final_records.append(record)
+                break
+
+    return final_records
+
+# Build final request
+
+
+def build_request(
+    document: JsonObject,
+    document_pages: JsonList,
+    collateral_field: JsonObject,
+    sub_extraction_fields: JsonList,
+) -> JsonObject:
+    """Build the final request body."""
+    return {
+        "requestId": document.get("requestId", ""),
+        "status": document.get("status", ""),
+        "documents": [
+            {
+                **document,
+                "pages": document_pages,
+                "extractionField": collateral_field,
+                "subExtractionFields": sub_extraction_fields,
+            }
+        ],
+    }
+
+
+# Main
+
+
+def main() -> None:
+    """Run the document reconstruction process."""
+
+    # 1. Load all JSON files
+    documents: JsonList = load_json_file(
+        "document.json"
+    )
+    pages: JsonList = load_json_file(
+        "page.json"
+    )
+    extraction_fields: JsonList = load_json_file(
+        "extraction_field.json"
+    )
+    sub_extraction_fields: JsonList = load_json_file(
+        "sub_extraction_field.json"
     )
 
-# 7. Take the COMPLETE record if it contains
-#    at least one value where hidden == false
-
-
-final_sub_extraction_fields = []
-
-for record in collateral_sub_fields:
-
-    has_visible_value = False
-
-    for value in record.get("values", []):
-
-        if value.get("hidden") is False:
-            has_visible_value = True
-            break
-
-    if has_visible_value:
-        # Take the COMPLETE record
-        final_sub_extraction_fields.append(record)
-
-
-
-# 8. Print final records
-
-print(
-    "\nFinal sub-extraction records:",
-    len(final_sub_extraction_fields)
-)
-
-for record in final_sub_extraction_fields:
-
-    print("\n----------------------------------------")
-
-    print("Record ID:", record.get("_id"))
-
-    print(
-        "Tagged Status:",
-        record.get("taggedStatus")
+    logger.info("All files loaded successfully")
+    logger.info("Documents: %d", len(documents))
+    logger.info("Pages: %d", len(pages))
+    logger.info(
+        "Extraction fields: %d",
+        len(extraction_fields),
+    )
+    logger.info(
+        "Sub extraction fields: %d",
+        len(sub_extraction_fields),
     )
 
-    print(
-        "Extraction Field ID:",
-        record.get("extractionFieldId")
+    # 2. Document ID
+    document_id = (
+        "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1"
     )
 
-    print(
-        "Document ID:",
-        record.get("documentId")
+    # 3. Find complete document
+    document = find_document(
+        documents,
+        document_id,
     )
 
-    print(
-        "Object ID:",
-        record.get("objectId")
+    if document is None:
+        logger.error(
+            "Document not found: %s",
+            document_id,
+        )
+        return
+
+    logger.info(
+        "Document found: %s",
+        document.get("_id"),
     )
 
-    print("Complete Record:")
+    # 4. Find all pages
+    document_pages = find_document_pages(
+        pages,
+        document_id,
+    )
 
-    print(
-        json.dumps(
-            record,
-            indent=4
+    logger.info(
+        "Pages found: %d",
+        len(document_pages),
+    )
+
+    for page in document_pages:
+        logger.info(
+            "Page: %s | Page Number: %s",
+            page.get("_id"),
+            page.get("pageNumber"),
+        )
+
+    # 5. Find Collateral Object List field
+    collateral_field = find_collateral_field(
+        extraction_fields
+    )
+
+    if collateral_field is None:
+        logger.error(
+            "Collateral Object List field not found"
+        )
+        return
+
+    collateral_id = collateral_field.get("_id")
+
+    if not isinstance(collateral_id, str):
+        logger.error(
+            "Collateral field does not have a valid ID"
+        )
+        return
+
+    logger.info(
+        "Collateral Object List field found"
+    )
+    logger.info(
+        "Collateral ID: %s",
+        collateral_id,
+    )
+
+    # 6. Find ADD and TAGGED records
+    collateral_sub_fields = (
+        find_collateral_sub_fields(
+            sub_extraction_fields,
+            collateral_id,
         )
     )
 
-
-# 9. Build final request body
-
-
-original_request = {
-    "requestId": document.get("requestId", ""),
-    "status": document.get("status", ""),
-    "documents": [
-        {
-            # Complete document
-            **document,
-
-            # All pages
-            "pages": document_pages,
-
-            # Complete Collateral extraction field
-            "extractionField": collateral_field,
-
-            # All matching ADD/TAGGED sub-extraction records
-            "subExtractionFields": final_sub_extraction_fields
-        }
-    ]
-}
-
-
-# 10. Print final request body
-
-
-print("\nFinal request body:")
-
-print(
-    json.dumps(
-        original_request,
-        indent=4
-    )
-)
-
-# 11. Save final request body to a separate file
-
-
-with open("final_request.json", "w") as file:
-    json.dump(
-        original_request,
-        file,
-        indent=4
+    logger.info(
+        "Collateral ADD/TAGGED records found: %d",
+        len(collateral_sub_fields),
     )
 
-print("\nFinal request saved to final_request.json")
+    for record in collateral_sub_fields:
+        logger.info(
+            "ID: %s | Status: %s",
+            record.get("_id"),
+            record.get("taggedStatus"),
+        )
+
+    # 7. Keep complete records with hidden == false
+    final_sub_extraction_fields = (
+        filter_visible_records(
+            collateral_sub_fields
+        )
+    )
+
+    logger.info(
+        "Final sub-extraction records: %d",
+        len(final_sub_extraction_fields),
+    )
+
+    for record in final_sub_extraction_fields:
+        logger.info(
+            "Selected record: %s | Status: %s",
+            record.get("_id"),
+            record.get("taggedStatus"),
+        )
+
+    # 8. Build final request
+    original_request = build_request(
+        document,
+        document_pages,
+        collateral_field,
+        final_sub_extraction_fields,
+    )
+
+    logger.info("Final request body created")
+
+    # 9. Save final request
+    output_file = "final_request.json"
+
+    with open(
+        output_file,
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            original_request,
+            file,
+            indent=4,
+        )
+
+    logger.info(
+        "Final request saved to %s",
+        output_file,
+    )
+
+
+if __name__ == "__main__":
+    main()
