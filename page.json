@@ -1,0 +1,299 @@
+[{
+  "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-1",
+  "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "parentDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+  "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+  "flowType": "prediction",
+  "docType": "Collatral-Table",
+  "parentFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+  "status": "PAGE_COMPLETED",
+  "rawTextPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/raw-text/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-1.txt",
+  "blocksFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/blocks/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-1_blocks.json",
+  "tokensFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/tokens/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-1_tokens.json",
+  "createdDate": {
+    "$date": "2026-05-21T11:44:15.511Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-05-21T11:44:20.915Z"
+  },
+  "pageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pages/TABLE_Collateral_doc-1.pdf",
+  "pageNumber": 1,
+  "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "optionalParams": {},
+  "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "imageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/images/TABLE_Collateral_doc-1.jpg",
+  "pdfType": "Machined",
+  "optimizedImagePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-1.jpg",
+  "scaledDpiRes": "300.0",
+  "thumbnailPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-1.png",
+  "detectedLanguages": [
+    {
+      "languageCode": "eng",
+      "confidence": 0.85
+    },
+    {
+      "languageCode": "spa",
+      "confidence": 0.01
+    },
+    {
+      "languageCode": "deu",
+      "confidence": 0.01
+    }
+  ],
+  "dpiRes": "300",
+  "endX": 2550,
+  "endY": 3300,
+  "height": 3300,
+  "ocrDataId": "34a1623e-d771-4141-a43a-54f7e9301e42",
+  "ocrEngine": "azure",
+  "ocrStatus": "OCRED",
+  "rotation": "0.0944",
+  "startX": 0,
+  "startY": 0,
+  "type": "page",
+  "width": 2550,
+  "imageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-1/TABLE_Collateral_doc-1.jpg",
+  "optimizedImageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-1/TABLE_Collateral_doc-1.jpg",
+  "pageFileUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pdf-pages/TABLE_Collateral_doc-1/TABLE_Collateral_doc-1.pdf",
+  "thumbnailUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-1/TABLE_Collateral_doc-1.png"
+},
+{
+  "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-2",
+  "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "parentDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+  "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+  "flowType": "prediction",
+  "docType": "Collatral-Table",
+  "parentFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+  "status": "PAGE_COMPLETED",
+  "rawTextPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/raw-text/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-2.txt",
+  "blocksFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/blocks/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-2_blocks.json",
+  "tokensFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/tokens/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-2_tokens.json",
+  "createdDate": {
+    "$date": "2026-05-21T11:44:15.511Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-05-21T11:44:22.109Z"
+  },
+  "pageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pages/TABLE_Collateral_doc-2.pdf",
+  "pageNumber": 2,
+  "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "optionalParams": {},
+  "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "imageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/images/TABLE_Collateral_doc-2.jpg",
+  "pdfType": "Machined",
+  "optimizedImagePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-2.jpg",
+  "scaledDpiRes": "300.0",
+  "thumbnailPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-2.png",
+  "detectedLanguages": [
+    {
+      "languageCode": "eng",
+      "confidence": 0.8
+    },
+    {
+      "languageCode": "fra",
+      "confidence": 0.01
+    },
+    {
+      "languageCode": "rus",
+      "confidence": 0.01
+    }
+  ],
+  "dpiRes": "300",
+  "endX": 2550,
+  "endY": 3300,
+  "height": 3300,
+  "ocrDataId": "f9a8bbef-8285-4b28-b867-c1062c0118d9",
+  "ocrEngine": "azure",
+  "ocrStatus": "OCRED",
+  "rotation": "0.0149",
+  "startX": 0,
+  "startY": 0,
+  "type": "page",
+  "width": 2550,
+  "imageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-2/TABLE_Collateral_doc-2.jpg",
+  "optimizedImageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-2/TABLE_Collateral_doc-2.jpg",
+  "pageFileUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pdf-pages/TABLE_Collateral_doc-2/TABLE_Collateral_doc-2.pdf",
+  "thumbnailUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-2/TABLE_Collateral_doc-2.png"
+},
+{
+  "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-3",
+  "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "parentDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+  "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+  "flowType": "prediction",
+  "docType": "Collatral-Table",
+  "parentFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+  "status": "PAGE_COMPLETED",
+  "rawTextPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/raw-text/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-3.txt",
+  "blocksFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/blocks/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-3_blocks.json",
+  "tokensFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/tokens/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-3_tokens.json",
+  "createdDate": {
+    "$date": "2026-05-21T11:44:15.511Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-05-21T11:44:23.757Z"
+  },
+  "pageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pages/TABLE_Collateral_doc-3.pdf",
+  "pageNumber": 3,
+  "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "optionalParams": {},
+  "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "imageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/images/TABLE_Collateral_doc-3.jpg",
+  "pdfType": "Machined",
+  "optimizedImagePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-3.jpg",
+  "scaledDpiRes": "300.0",
+  "thumbnailPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-3.png",
+  "detectedLanguages": [
+    {
+      "languageCode": "eng",
+      "confidence": 0.79
+    },
+    {
+      "languageCode": "spa",
+      "confidence": 0.01
+    }
+  ],
+  "dpiRes": "300",
+  "endX": 2550,
+  "endY": 3300,
+  "height": 3300,
+  "ocrDataId": "3cd83dee-e00e-45cf-8876-ac54ee07f586",
+  "ocrEngine": "azure",
+  "ocrStatus": "OCRED",
+  "rotation": "0.1294",
+  "startX": 0,
+  "startY": 0,
+  "type": "page",
+  "width": 2550,
+  "imageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-3/TABLE_Collateral_doc-3.jpg",
+  "optimizedImageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-3/TABLE_Collateral_doc-3.jpg",
+  "pageFileUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pdf-pages/TABLE_Collateral_doc-3/TABLE_Collateral_doc-3.pdf",
+  "thumbnailUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-3/TABLE_Collateral_doc-3.png"
+},
+{
+  "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-4",
+  "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "parentDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+  "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+  "flowType": "prediction",
+  "docType": "Collatral-Table",
+  "parentFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+  "status": "PAGE_COMPLETED",
+  "rawTextPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/raw-text/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-4.txt",
+  "blocksFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/blocks/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-4_blocks.json",
+  "tokensFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/tokens/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-4_tokens.json",
+  "createdDate": {
+    "$date": "2026-05-21T11:44:15.511Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-05-21T11:44:25.416Z"
+  },
+  "pageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pages/TABLE_Collateral_doc-4.pdf",
+  "pageNumber": 4,
+  "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "optionalParams": {},
+  "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "imageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/images/TABLE_Collateral_doc-4.jpg",
+  "pdfType": "Machined",
+  "optimizedImagePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-4.jpg",
+  "scaledDpiRes": "300.0",
+  "thumbnailPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-4.png",
+  "detectedLanguages": [
+    {
+      "languageCode": "eng",
+      "confidence": 0.75
+    },
+    {
+      "languageCode": "deu",
+      "confidence": 0.01
+    }
+  ],
+  "dpiRes": "300",
+  "endX": 2550,
+  "endY": 3300,
+  "height": 3300,
+  "ocrDataId": "0ceda9f2-1a2c-4177-a54d-d949ddf1a32c",
+  "ocrEngine": "azure",
+  "ocrStatus": "OCRED",
+  "rotation": "0.0949",
+  "startX": 0,
+  "startY": 0,
+  "type": "page",
+  "width": 2550,
+  "imageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-4/TABLE_Collateral_doc-4.jpg",
+  "optimizedImageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-4/TABLE_Collateral_doc-4.jpg",
+  "pageFileUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pdf-pages/TABLE_Collateral_doc-4/TABLE_Collateral_doc-4.pdf",
+  "thumbnailUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-4/TABLE_Collateral_doc-4.png"
+},
+{
+  "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-5",
+  "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "parentDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+  "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+  "flowType": "prediction",
+  "docType": "Collatral-Table",
+  "parentFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+  "status": "PAGE_COMPLETED",
+  "rawTextPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/raw-text/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-5.txt",
+  "blocksFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/blocks/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-5_blocks.json",
+  "tokensFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/tokens/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-5_tokens.json",
+  "createdDate": {
+    "$date": "2026-05-21T11:44:15.511Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-05-21T11:44:27.039Z"
+  },
+  "pageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pages/TABLE_Collateral_doc-5.pdf",
+  "pageNumber": 5,
+  "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "optionalParams": {},
+  "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "imageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/images/TABLE_Collateral_doc-5.jpg",
+  "pdfType": "Machined",
+  "optimizedImagePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-5.jpg",
+  "scaledDpiRes": "300.0",
+  "thumbnailPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-5.png",
+  "detectedLanguages": [
+    {
+      "languageCode": "eng",
+      "confidence": 0.91
+    }
+  ],
+  "dpiRes": "300",
+  "endX": 2550,
+  "endY": 3300,
+  "height": 3300,
+  "ocrDataId": "628b9aaf-2bb9-435f-9882-c26066c1b8ac",
+  "ocrEngine": "azure",
+  "ocrStatus": "OCRED",
+  "rotation": "360",
+  "startX": 0,
+  "startY": 0,
+  "type": "page",
+  "width": 2550,
+  "imageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-5/TABLE_Collateral_doc-5.jpg",
+  "optimizedImageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-5/TABLE_Collateral_doc-5.jpg",
+  "pageFileUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pdf-pages/TABLE_Collateral_doc-5/TABLE_Collateral_doc-5.pdf",
+  "thumbnailUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-5/TABLE_Collateral_doc-5.png"
+}]

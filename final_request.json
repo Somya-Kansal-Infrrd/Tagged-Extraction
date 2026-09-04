@@ -1,0 +1,799 @@
+{
+    "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+    "status": "IN_PROGRESS",
+    "documents": [
+        {
+            "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+            "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+            "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+            "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+            "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+            "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+            "subStatus": "To be reviewed",
+            "status": "IN_PROGRESS",
+            "fileType": "pdf",
+            "docType": "Collatral-Table",
+            "taggedDocTypeHierarchy": [
+                {
+                    "value": "Collatral-Table",
+                    "confidence": 0
+                }
+            ],
+            "flowType": "prediction",
+            "fileName": "TABLE_Collateral_doc.pdf",
+            "siblings": 1,
+            "filePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+            "processed": false,
+            "taggedFields": [],
+            "createdDate": {
+                "$date": "2026-05-21T11:44:13.865Z"
+            },
+            "documentReceivedDate": {
+                "$date": "2026-05-21T11:44:13.865Z"
+            },
+            "lastModifiedDate": {
+                "$date": "2026-06-10T06:58:54.234Z"
+            },
+            "completedPages": 5,
+            "failedPages": 0,
+            "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+            "splitLevel": "0",
+            "isActive": true,
+            "taggedUserModelIds": [
+                "04bbd710-a25b-4b62-a477-5f802a997551"
+            ],
+            "isTrainingDocument": false,
+            "documentSize": "147.1 KiB",
+            "sourceDocumentUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/source/TABLE_Collateral_doc.pdf",
+            "enableBIBot": false,
+            "enableIntelliBot": false,
+            "isLLMEnabled": true,
+            "getCallStats": {
+                "count": 0,
+                "status": "Waiting"
+            },
+            "createdUserName": "rohan",
+            "version": 1,
+            "sourceDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+            "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+            "documentExtractionStartDate": {
+                "$date": "2026-05-21T11:44:14.166Z"
+            },
+            "endPage": 5,
+            "startPage": 1,
+            "totalBlankPages": 0,
+            "totalInvalidPages": 0,
+            "totalPages": 5,
+            "totalSkippedPages": 0,
+            "completedModules": [
+                "BIBOT_VISION",
+                "NER",
+                "COGNI",
+                "GENIE_VISION",
+                "BIBOT",
+                "GER",
+                "GENIE",
+                "COGNI_VISION",
+                "KVP",
+                "TABL"
+            ],
+            "supportedModules": [
+                "GENIE_VISION",
+                "COGNI",
+                "KVP",
+                "BIBOT",
+                "GENIE",
+                "BIBOT_VISION",
+                "NER",
+                "COGNI_VISION",
+                "GER",
+                "TABL"
+            ],
+            "queueAddTime": {
+                "$date": "2026-05-21T11:45:06.786Z"
+            },
+            "correctedByUserInfo": {
+                "correctedBy": "f76dafbc-57d1-433f-9015-0fa37839302e",
+                "correctionStartTime": {
+                    "$date": "2026-06-10T06:58:39.967Z"
+                },
+                "correctionEndTime": {
+                    "$date": "2026-06-10T06:58:53.589Z"
+                },
+                "correctedByUserName": "rohan",
+                "correctedByUserEmail": "rohanrai+dev_csv@infrrd.ai",
+                "queueAddTime": {
+                    "$date": "2026-05-21T11:45:06.789Z"
+                },
+                "correctionType": "DATA_CORRECTION"
+            },
+            "isStpSuccess": true,
+            "failure": false,
+            "success": true,
+            "areAlphaFieldsAggregated": false,
+            "docTypeHierarchyBeforeCorrection": [],
+            "additionalInfo": {
+                "status": "AMENDED"
+            },
+            "correctedBy": "f76dafbc-57d1-433f-9015-0fa37839302e",
+            "correctedOn": {
+                "$date": "2026-06-10T06:58:54.233Z"
+            },
+            "correctedUserName": "rohan",
+            "correctionEndTime": {
+                "$date": "2026-06-10T06:58:53.589Z"
+            },
+            "correctionStartTime": {
+                "$date": "2026-06-10T06:58:39.967Z"
+            },
+            "correctionTime": {
+                "$numberLong": "13622"
+            },
+            "isCorrected": true,
+            "numberOfFieldsCorrected": {
+                "$numberLong": "4"
+            },
+            "draft": true,
+            "pages": [
+                {
+                    "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-1",
+                    "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+                    "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+                    "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+                    "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "parentDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+                    "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+                    "flowType": "prediction",
+                    "docType": "Collatral-Table",
+                    "parentFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+                    "status": "PAGE_COMPLETED",
+                    "rawTextPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/raw-text/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-1.txt",
+                    "blocksFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/blocks/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-1_blocks.json",
+                    "tokensFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/tokens/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-1_tokens.json",
+                    "createdDate": {
+                        "$date": "2026-05-21T11:44:15.511Z"
+                    },
+                    "lastModifiedDate": {
+                        "$date": "2026-05-21T11:44:20.915Z"
+                    },
+                    "pageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pages/TABLE_Collateral_doc-1.pdf",
+                    "pageNumber": 1,
+                    "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "optionalParams": {},
+                    "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "imageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/images/TABLE_Collateral_doc-1.jpg",
+                    "pdfType": "Machined",
+                    "optimizedImagePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-1.jpg",
+                    "scaledDpiRes": "300.0",
+                    "thumbnailPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-1.png",
+                    "detectedLanguages": [
+                        {
+                            "languageCode": "eng",
+                            "confidence": 0.85
+                        },
+                        {
+                            "languageCode": "spa",
+                            "confidence": 0.01
+                        },
+                        {
+                            "languageCode": "deu",
+                            "confidence": 0.01
+                        }
+                    ],
+                    "dpiRes": "300",
+                    "endX": 2550,
+                    "endY": 3300,
+                    "height": 3300,
+                    "ocrDataId": "34a1623e-d771-4141-a43a-54f7e9301e42",
+                    "ocrEngine": "azure",
+                    "ocrStatus": "OCRED",
+                    "rotation": "0.0944",
+                    "startX": 0,
+                    "startY": 0,
+                    "type": "page",
+                    "width": 2550,
+                    "imageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-1/TABLE_Collateral_doc-1.jpg",
+                    "optimizedImageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-1/TABLE_Collateral_doc-1.jpg",
+                    "pageFileUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pdf-pages/TABLE_Collateral_doc-1/TABLE_Collateral_doc-1.pdf",
+                    "thumbnailUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-1/TABLE_Collateral_doc-1.png"
+                },
+                {
+                    "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-2",
+                    "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+                    "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+                    "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+                    "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "parentDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+                    "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+                    "flowType": "prediction",
+                    "docType": "Collatral-Table",
+                    "parentFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+                    "status": "PAGE_COMPLETED",
+                    "rawTextPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/raw-text/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-2.txt",
+                    "blocksFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/blocks/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-2_blocks.json",
+                    "tokensFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/tokens/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-2_tokens.json",
+                    "createdDate": {
+                        "$date": "2026-05-21T11:44:15.511Z"
+                    },
+                    "lastModifiedDate": {
+                        "$date": "2026-05-21T11:44:22.109Z"
+                    },
+                    "pageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pages/TABLE_Collateral_doc-2.pdf",
+                    "pageNumber": 2,
+                    "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "optionalParams": {},
+                    "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "imageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/images/TABLE_Collateral_doc-2.jpg",
+                    "pdfType": "Machined",
+                    "optimizedImagePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-2.jpg",
+                    "scaledDpiRes": "300.0",
+                    "thumbnailPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-2.png",
+                    "detectedLanguages": [
+                        {
+                            "languageCode": "eng",
+                            "confidence": 0.8
+                        },
+                        {
+                            "languageCode": "fra",
+                            "confidence": 0.01
+                        },
+                        {
+                            "languageCode": "rus",
+                            "confidence": 0.01
+                        }
+                    ],
+                    "dpiRes": "300",
+                    "endX": 2550,
+                    "endY": 3300,
+                    "height": 3300,
+                    "ocrDataId": "f9a8bbef-8285-4b28-b867-c1062c0118d9",
+                    "ocrEngine": "azure",
+                    "ocrStatus": "OCRED",
+                    "rotation": "0.0149",
+                    "startX": 0,
+                    "startY": 0,
+                    "type": "page",
+                    "width": 2550,
+                    "imageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-2/TABLE_Collateral_doc-2.jpg",
+                    "optimizedImageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-2/TABLE_Collateral_doc-2.jpg",
+                    "pageFileUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pdf-pages/TABLE_Collateral_doc-2/TABLE_Collateral_doc-2.pdf",
+                    "thumbnailUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-2/TABLE_Collateral_doc-2.png"
+                },
+                {
+                    "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-3",
+                    "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+                    "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+                    "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+                    "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "parentDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+                    "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+                    "flowType": "prediction",
+                    "docType": "Collatral-Table",
+                    "parentFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+                    "status": "PAGE_COMPLETED",
+                    "rawTextPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/raw-text/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-3.txt",
+                    "blocksFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/blocks/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-3_blocks.json",
+                    "tokensFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/tokens/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-3_tokens.json",
+                    "createdDate": {
+                        "$date": "2026-05-21T11:44:15.511Z"
+                    },
+                    "lastModifiedDate": {
+                        "$date": "2026-05-21T11:44:23.757Z"
+                    },
+                    "pageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pages/TABLE_Collateral_doc-3.pdf",
+                    "pageNumber": 3,
+                    "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "optionalParams": {},
+                    "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "imageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/images/TABLE_Collateral_doc-3.jpg",
+                    "pdfType": "Machined",
+                    "optimizedImagePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-3.jpg",
+                    "scaledDpiRes": "300.0",
+                    "thumbnailPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-3.png",
+                    "detectedLanguages": [
+                        {
+                            "languageCode": "eng",
+                            "confidence": 0.79
+                        },
+                        {
+                            "languageCode": "spa",
+                            "confidence": 0.01
+                        }
+                    ],
+                    "dpiRes": "300",
+                    "endX": 2550,
+                    "endY": 3300,
+                    "height": 3300,
+                    "ocrDataId": "3cd83dee-e00e-45cf-8876-ac54ee07f586",
+                    "ocrEngine": "azure",
+                    "ocrStatus": "OCRED",
+                    "rotation": "0.1294",
+                    "startX": 0,
+                    "startY": 0,
+                    "type": "page",
+                    "width": 2550,
+                    "imageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-3/TABLE_Collateral_doc-3.jpg",
+                    "optimizedImageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-3/TABLE_Collateral_doc-3.jpg",
+                    "pageFileUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pdf-pages/TABLE_Collateral_doc-3/TABLE_Collateral_doc-3.pdf",
+                    "thumbnailUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-3/TABLE_Collateral_doc-3.png"
+                },
+                {
+                    "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-4",
+                    "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+                    "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+                    "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+                    "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "parentDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+                    "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+                    "flowType": "prediction",
+                    "docType": "Collatral-Table",
+                    "parentFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+                    "status": "PAGE_COMPLETED",
+                    "rawTextPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/raw-text/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-4.txt",
+                    "blocksFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/blocks/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-4_blocks.json",
+                    "tokensFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/tokens/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-4_tokens.json",
+                    "createdDate": {
+                        "$date": "2026-05-21T11:44:15.511Z"
+                    },
+                    "lastModifiedDate": {
+                        "$date": "2026-05-21T11:44:25.416Z"
+                    },
+                    "pageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pages/TABLE_Collateral_doc-4.pdf",
+                    "pageNumber": 4,
+                    "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "optionalParams": {},
+                    "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "imageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/images/TABLE_Collateral_doc-4.jpg",
+                    "pdfType": "Machined",
+                    "optimizedImagePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-4.jpg",
+                    "scaledDpiRes": "300.0",
+                    "thumbnailPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-4.png",
+                    "detectedLanguages": [
+                        {
+                            "languageCode": "eng",
+                            "confidence": 0.75
+                        },
+                        {
+                            "languageCode": "deu",
+                            "confidence": 0.01
+                        }
+                    ],
+                    "dpiRes": "300",
+                    "endX": 2550,
+                    "endY": 3300,
+                    "height": 3300,
+                    "ocrDataId": "0ceda9f2-1a2c-4177-a54d-d949ddf1a32c",
+                    "ocrEngine": "azure",
+                    "ocrStatus": "OCRED",
+                    "rotation": "0.0949",
+                    "startX": 0,
+                    "startY": 0,
+                    "type": "page",
+                    "width": 2550,
+                    "imageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-4/TABLE_Collateral_doc-4.jpg",
+                    "optimizedImageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-4/TABLE_Collateral_doc-4.jpg",
+                    "pageFileUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pdf-pages/TABLE_Collateral_doc-4/TABLE_Collateral_doc-4.pdf",
+                    "thumbnailUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-4/TABLE_Collateral_doc-4.png"
+                },
+                {
+                    "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-5",
+                    "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+                    "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+                    "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+                    "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "parentDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+                    "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+                    "flowType": "prediction",
+                    "docType": "Collatral-Table",
+                    "parentFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+                    "status": "PAGE_COMPLETED",
+                    "rawTextPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/raw-text/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-5.txt",
+                    "blocksFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/blocks/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-5_blocks.json",
+                    "tokensFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/tokens/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1_page-5_tokens.json",
+                    "createdDate": {
+                        "$date": "2026-05-21T11:44:15.511Z"
+                    },
+                    "lastModifiedDate": {
+                        "$date": "2026-05-21T11:44:27.039Z"
+                    },
+                    "pageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pages/TABLE_Collateral_doc-5.pdf",
+                    "pageNumber": 5,
+                    "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "optionalParams": {},
+                    "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "imageFilePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/images/TABLE_Collateral_doc-5.jpg",
+                    "pdfType": "Machined",
+                    "optimizedImagePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-5.jpg",
+                    "scaledDpiRes": "300.0",
+                    "thumbnailPath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-5.png",
+                    "detectedLanguages": [
+                        {
+                            "languageCode": "eng",
+                            "confidence": 0.91
+                        }
+                    ],
+                    "dpiRes": "300",
+                    "endX": 2550,
+                    "endY": 3300,
+                    "height": 3300,
+                    "ocrDataId": "628b9aaf-2bb9-435f-9882-c26066c1b8ac",
+                    "ocrEngine": "azure",
+                    "ocrStatus": "OCRED",
+                    "rotation": "360",
+                    "startX": 0,
+                    "startY": 0,
+                    "type": "page",
+                    "width": 2550,
+                    "imageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-5/TABLE_Collateral_doc-5.jpg",
+                    "optimizedImageUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/optimized-images/TABLE_Collateral_doc-5/TABLE_Collateral_doc-5.jpg",
+                    "pageFileUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/pdf-pages/TABLE_Collateral_doc-5/TABLE_Collateral_doc-5.pdf",
+                    "thumbnailUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/thumbnails/TABLE_Collateral_doc-5/TABLE_Collateral_doc-5.png"
+                }
+            ],
+            "extractionField": {
+                "_id": "c170b9a4-7e55-4fca-8a2f-3d67374c5f78",
+                "fieldId": "f1c8a7d3-2e6b-45f9-b4c1-8d3a7e2f5b99",
+                "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+                "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+                "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+                "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+                "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+                "fieldName": "Collateral",
+                "fieldType": "Object List",
+                "order": 8,
+                "confidence": 1,
+                "startX": 0,
+                "startY": 0,
+                "endX": 0,
+                "endY": 0,
+                "extractedUsing": "WRAPPER",
+                "startIndex": 0,
+                "endIndex": 0,
+                "pageNumber": 1,
+                "values": [],
+                "wordInfoList": [],
+                "alternateCandidates": [],
+                "substituteValues": [],
+                "createdDate": {
+                    "$date": "2026-05-21T11:45:01.963Z"
+                },
+                "lastModifiedDate": {
+                    "$date": "2026-05-21T11:45:02.366Z"
+                },
+                "dataType": "object_list",
+                "tokenType": "multi_token_multi_line",
+                "checkerCorrected": false,
+                "correctedBy": "f76dafbc-57d1-433f-9015-0fa37839302e",
+                "correctedOn": {
+                    "$date": "2026-06-09T07:29:03.296Z"
+                },
+                "correctedUserEmail": "rohanrai+dev_csv@infrrd.ai",
+                "correctedUserName": "rohan",
+                "isCorrected": true,
+                "taggedStatus": "1"
+            },
+            "subExtractionFields": [
+                {
+                    "_id": "6144d5da-6797-43c4-9b39-b6a23ba6c322",
+                    "extractionFieldId": "c170b9a4-7e55-4fca-8a2f-3d67374c5f78",
+                    "isCorrected": true,
+                    "confidence": 1,
+                    "pageNumber": 1,
+                    "objectId": "e29f8453-3bc2-4ed9-b619-abba923f16b9",
+                    "values": [
+                        {
+                            "value": "Kayla M Ealy",
+                            "confidence": 1,
+                            "wordInfoList": [
+                                {
+                                    "id": "token_0_1654_895_1761_939",
+                                    "value": "Kayla",
+                                    "startX": 1654,
+                                    "startY": 895,
+                                    "endX": 1761,
+                                    "endY": 939,
+                                    "endIndex": 694
+                                },
+                                {
+                                    "id": "token_0_1771_894_1795_940",
+                                    "value": "M",
+                                    "startX": 1771,
+                                    "startY": 894,
+                                    "endX": 1795,
+                                    "endY": 940,
+                                    "endIndex": 696
+                                },
+                                {
+                                    "id": "token_0_1818_895_1907_942",
+                                    "value": "Ealy",
+                                    "startX": 1818,
+                                    "startY": 895,
+                                    "endX": 1907,
+                                    "endY": 942,
+                                    "endIndex": 701
+                                }
+                            ],
+                            "fieldName": "BORROWER",
+                            "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+                            "fieldId": "f97adbbf-faa4-472c-a4a9-7ef46236cb13",
+                            "displayName": "BORROWER",
+                            "fieldType": "Single Value",
+                            "dataType": "string",
+                            "additionalAttributes": {},
+                            "pageNumber": 1,
+                            "startIndex": 0,
+                            "endIndex": 0,
+                            "position": 1,
+                            "confidanceStyle": "green",
+                            "originalValues": {
+                                "value": "Kayla M Ealy",
+                                "confidence": 0.9,
+                                "wordInfoList": [
+                                    {
+                                        "id": "token_0_1654_895_1761_939",
+                                        "value": "Kayla",
+                                        "startX": 1654,
+                                        "startY": 895,
+                                        "endX": 1761,
+                                        "endY": 939,
+                                        "endIndex": 694
+                                    },
+                                    {
+                                        "id": "token_0_1771_894_1795_940",
+                                        "value": "M",
+                                        "startX": 1771,
+                                        "startY": 894,
+                                        "endX": 1795,
+                                        "endY": 940,
+                                        "endIndex": 696
+                                    },
+                                    {
+                                        "id": "token_0_1818_895_1907_942",
+                                        "value": "Ealy",
+                                        "startX": 1818,
+                                        "startY": 895,
+                                        "endX": 1907,
+                                        "endY": 942,
+                                        "endIndex": 701
+                                    }
+                                ],
+                                "fieldName": "BORROWER",
+                                "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+                                "fieldId": "f97adbbf-faa4-472c-a4a9-7ef46236cb13",
+                                "displayName": "BORROWER",
+                                "fieldType": "Single Value",
+                                "dataType": "string",
+                                "additionalAttributes": {},
+                                "pageNumber": 1,
+                                "startIndex": 0,
+                                "endIndex": 0,
+                                "position": 1,
+                                "confidanceStyle": "green"
+                            },
+                            "type": "Single Value",
+                            "initialValues": [
+                                ""
+                            ],
+                            "order": 1,
+                            "configuration": {
+                                "type": "text"
+                            },
+                            "correctedValue": [],
+                            "correctedValueWordInfoList": [],
+                            "isMultiValueField": true,
+                            "extractionFieldId": "c170b9a4-7e55-4fca-8a2f-3d67374c5f78",
+                            "initialValue": "Kayla M Ealy",
+                            "show": true,
+                            "hidden": false,
+                            "disable": false,
+                            "tabStatus": "ADDED",
+                            "isCorrected": false
+                        },
+                        {
+                            "id": "6d5aff97-7126-434d-b578-3deb115f65eb",
+                            "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+                            "fieldId": "0119f992-63cc-4a6d-9e90-dcf1f6ceab29",
+                            "fieldName": "PERSONAL INFORMATION",
+                            "fieldType": "Generic Table",
+                            "columnCount": 2,
+                            "headers": [
+                                {
+                                    "id": "1",
+                                    "name": "Role / Borrower Type",
+                                    "dataType": "string",
+                                    "tokenType": "multi_token_multi_line"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Primary Borrower",
+                                    "dataType": "string",
+                                    "tokenType": "multi_token_multi_line"
+                                }
+                            ],
+                            "isHeaderAdded": false,
+                            "isHeaderMarked": false,
+                            "extractionTableType": "headers",
+                            "availablePages": [
+                                1
+                            ],
+                            "totalRowCount": 10,
+                            "isCorrected": true,
+                            "confidence": 1
+                        }
+                    ],
+                    "fieldType": "Object List",
+                    "taggedStatus": "ADD",
+                    "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+                    "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "createdDate": {
+                        "$date": "2026-06-09T07:29:03.051Z"
+                    },
+                    "lastModifiedDate": {
+                        "$date": "2026-06-09T07:29:03.051Z"
+                    }
+                },
+                {
+                    "_id": "dcb83b71-c5cc-4b95-b7e9-b3a6c207785c",
+                    "extractionFieldId": "c170b9a4-7e55-4fca-8a2f-3d67374c5f78",
+                    "isCorrected": true,
+                    "confidence": 1,
+                    "pageNumber": 1,
+                    "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+                    "values": [
+                        {
+                            "value": "Kayla M Ealy test",
+                            "confidence": 0.9,
+                            "wordInfoList": [
+                                {
+                                    "id": "token_0_1654_895_1761_939",
+                                    "value": "Kayla",
+                                    "startX": 1654,
+                                    "startY": 895,
+                                    "endX": 1761,
+                                    "endY": 939,
+                                    "endIndex": 694
+                                },
+                                {
+                                    "id": "token_0_1771_894_1795_940",
+                                    "value": "M",
+                                    "startX": 1771,
+                                    "startY": 894,
+                                    "endX": 1795,
+                                    "endY": 940,
+                                    "endIndex": 696
+                                },
+                                {
+                                    "id": "token_0_1818_895_1907_942",
+                                    "value": "Ealy",
+                                    "startX": 1818,
+                                    "startY": 895,
+                                    "endX": 1907,
+                                    "endY": 942,
+                                    "endIndex": 701
+                                }
+                            ],
+                            "fieldName": "BORROWER",
+                            "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+                            "fieldId": "f97adbbf-faa4-472c-a4a9-7ef46236cb13",
+                            "displayName": "BORROWER",
+                            "fieldType": "Single Value",
+                            "dataType": "string",
+                            "additionalAttributes": {},
+                            "pageNumber": 1,
+                            "startIndex": 0,
+                            "endIndex": 0,
+                            "position": 1,
+                            "confidanceStyle": "green",
+                            "originalValues": {
+                                "value": "Kayla M Ealy",
+                                "confidence": 0.9,
+                                "wordInfoList": [
+                                    {
+                                        "id": "token_0_1654_895_1761_939",
+                                        "value": "Kayla",
+                                        "startX": 1654,
+                                        "startY": 895,
+                                        "endX": 1761,
+                                        "endY": 939,
+                                        "endIndex": 694
+                                    },
+                                    {
+                                        "id": "token_0_1771_894_1795_940",
+                                        "value": "M",
+                                        "startX": 1771,
+                                        "startY": 894,
+                                        "endX": 1795,
+                                        "endY": 940,
+                                        "endIndex": 696
+                                    },
+                                    {
+                                        "id": "token_0_1818_895_1907_942",
+                                        "value": "Ealy",
+                                        "startX": 1818,
+                                        "startY": 895,
+                                        "endX": 1907,
+                                        "endY": 942,
+                                        "endIndex": 701
+                                    }
+                                ],
+                                "fieldName": "BORROWER",
+                                "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+                                "fieldId": "f97adbbf-faa4-472c-a4a9-7ef46236cb13",
+                                "displayName": "BORROWER",
+                                "fieldType": "Single Value",
+                                "dataType": "string",
+                                "additionalAttributes": {},
+                                "pageNumber": 1,
+                                "startIndex": 0,
+                                "endIndex": 0,
+                                "position": 1,
+                                "confidanceStyle": "green"
+                            },
+                            "type": "Single Value",
+                            "initialValues": [
+                                "Kayla M Ealy"
+                            ],
+                            "configuration": {
+                                "type": "text"
+                            },
+                            "correctedValue": [],
+                            "correctedValueWordInfoList": [],
+                            "isMultiValueField": true,
+                            "extractionFieldId": "c170b9a4-7e55-4fca-8a2f-3d67374c5f78",
+                            "initialValue": "Kayla M Ealy",
+                            "show": true,
+                            "hidden": false,
+                            "disable": false,
+                            "isRefreshRequired": true,
+                            "isCorrected": true,
+                            "editQuestion": false
+                        },
+                        {
+                            "id": "6d5aff97-7126-434d-b578-3deb115f65eb",
+                            "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+                            "fieldId": "0119f992-63cc-4a6d-9e90-dcf1f6ceab29",
+                            "fieldName": "PERSONAL INFORMATION",
+                            "fieldType": "Generic Table",
+                            "columnCount": 2,
+                            "headers": [
+                                {
+                                    "id": "1",
+                                    "name": "Role / Borrower Type",
+                                    "dataType": "string",
+                                    "tokenType": "multi_token_multi_line"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Primary Borrower",
+                                    "dataType": "string",
+                                    "tokenType": "multi_token_multi_line"
+                                }
+                            ],
+                            "isHeaderAdded": false,
+                            "isHeaderMarked": false,
+                            "extractionTableType": "headers",
+                            "availablePages": [
+                                1
+                            ],
+                            "totalRowCount": 10,
+                            "isCorrected": false
+                        }
+                    ],
+                    "fieldType": "Object List",
+                    "taggedStatus": "TAGGED",
+                    "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+                    "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+                    "lastModifiedDate": {
+                        "$date": "2026-06-09T07:29:03.053Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

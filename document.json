@@ -1,0 +1,133 @@
+[{
+  "_id": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+  "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+  "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+  "subStatus": "To be reviewed",
+  "status": "IN_PROGRESS",
+  "fileType": "pdf",
+  "docType": "Collatral-Table",
+  "taggedDocTypeHierarchy": [
+    {
+      "value": "Collatral-Table",
+      "confidence": 0
+    }
+  ],
+  "flowType": "prediction",
+  "fileName": "TABLE_Collateral_doc.pdf",
+  "siblings": 1,
+  "filePath": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/TABLE_Collateral_doc.pdf",
+  "processed": false,
+  "taggedFields": [],
+  "createdDate": {
+    "$date": "2026-05-21T11:44:13.865Z"
+  },
+  "documentReceivedDate": {
+    "$date": "2026-05-21T11:44:13.865Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-06-10T06:58:54.234Z"
+  },
+  "completedPages": 5,
+  "failedPages": 0,
+  "baseDirectory": "/var/data/efs/8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "splitLevel": "0",
+  "isActive": true,
+  "taggedUserModelIds": [
+    "04bbd710-a25b-4b62-a477-5f802a997551"
+  ],
+  "isTrainingDocument": false,
+  "documentSize": "147.1 KiB",
+  "sourceDocumentUrl": "https://app.dev.infrrd.cloud/doc/get/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1/source/TABLE_Collateral_doc.pdf",
+  "enableBIBot": false,
+  "enableIntelliBot": false,
+  "isLLMEnabled": true,
+  "getCallStats": {
+    "count": 0,
+    "status": "Waiting"
+  },
+  "createdUserName": "rohan",
+  "version": 1,
+  "sourceDocumentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "fileServerBaseDirectory": "cust_8651b864-1459-4e9e-903c-f43cec0f3e94/04bbd710-a25b-4b62-a477-5f802a997551/2026/5/21/14cdfdba-34d0-4209-bbf6-ebf771a5646e/14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "documentExtractionStartDate": {
+    "$date": "2026-05-21T11:44:14.166Z"
+  },
+  "endPage": 5,
+  "startPage": 1,
+  "totalBlankPages": 0,
+  "totalInvalidPages": 0,
+  "totalPages": 5,
+  "totalSkippedPages": 0,
+  "completedModules": [
+    "BIBOT_VISION",
+    "NER",
+    "COGNI",
+    "GENIE_VISION",
+    "BIBOT",
+    "GER",
+    "GENIE",
+    "COGNI_VISION",
+    "KVP",
+    "TABL"
+  ],
+  "supportedModules": [
+    "GENIE_VISION",
+    "COGNI",
+    "KVP",
+    "BIBOT",
+    "GENIE",
+    "BIBOT_VISION",
+    "NER",
+    "COGNI_VISION",
+    "GER",
+    "TABL"
+  ],
+  "queueAddTime": {
+    "$date": "2026-05-21T11:45:06.786Z"
+  },
+  "correctedByUserInfo": {
+    "correctedBy": "f76dafbc-57d1-433f-9015-0fa37839302e",
+    "correctionStartTime": {
+      "$date": "2026-06-10T06:58:39.967Z"
+    },
+    "correctionEndTime": {
+      "$date": "2026-06-10T06:58:53.589Z"
+    },
+    "correctedByUserName": "rohan",
+    "correctedByUserEmail": "rohanrai+dev_csv@infrrd.ai",
+    "queueAddTime": {
+      "$date": "2026-05-21T11:45:06.789Z"
+    },
+    "correctionType": "DATA_CORRECTION"
+  },
+  "isStpSuccess": true,
+  "failure": false,
+  "success": true,
+  "areAlphaFieldsAggregated": false,
+  "docTypeHierarchyBeforeCorrection": [],
+  "additionalInfo": {
+    "status": "AMENDED"
+  },
+  "correctedBy": "f76dafbc-57d1-433f-9015-0fa37839302e",
+  "correctedOn": {
+    "$date": "2026-06-10T06:58:54.233Z"
+  },
+  "correctedUserName": "rohan",
+  "correctionEndTime": {
+    "$date": "2026-06-10T06:58:53.589Z"
+  },
+  "correctionStartTime": {
+    "$date": "2026-06-10T06:58:39.967Z"
+  },
+  "correctionTime": {
+    "$numberLong": "13622"
+  },
+  "isCorrected": true,
+  "numberOfFieldsCorrected": {
+    "$numberLong": "4"
+  },
+  "draft": true
+}]

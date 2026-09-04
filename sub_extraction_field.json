@@ -1,0 +1,4140 @@
+[{
+  "_id": "7d4b3974-550a-11f1-95d9-a65ccfb099c7",
+  "pageNumber": 4,
+  "startX": 208,
+  "startY": 1649,
+  "endX": 2350,
+  "endY": 2088,
+  "rowCount": 8,
+  "columnCount": 2,
+  "isHeaderMarked": false,
+  "isHeaderAdded": false,
+  "confidence": 0.9589101076126099,
+  "values": [
+    [
+      {
+        "id": "4_0_0",
+        "headerId": "1",
+        "rowNumber": 0,
+        "columnNumber": 0,
+        "value": "Property Address",
+        "valueObject": null,
+        "startX": 208,
+        "startY": 1649,
+        "endX": 1016,
+        "endY": 1721,
+        "tokens": [
+          {
+            "id": "token_0_227_1678_398_1721",
+            "startX": 227,
+            "startY": 1678,
+            "endX": 398,
+            "endY": 1721,
+            "text": "Property",
+            "startIndex": 1383,
+            "endIndex": 1390
+          },
+          {
+            "id": "token_0_409_1677_573_1719",
+            "startX": 409,
+            "startY": 1677,
+            "endX": 573,
+            "endY": 1719,
+            "text": "Address",
+            "startIndex": 1392,
+            "endIndex": 1398
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": true,
+        "isDeleted": false,
+        "confidence": 0.096
+      },
+      {
+        "id": "4_0_1",
+        "headerId": "2",
+        "rowNumber": 0,
+        "columnNumber": 1,
+        "value": "3828 W Sharpshin Dr, Coeur D Alene, ID 83815",
+        "valueObject": null,
+        "startX": 1016,
+        "startY": 1649,
+        "endX": 2350,
+        "endY": 1721,
+        "tokens": [
+          {
+            "id": "token_0_1300_1674_1387_1720",
+            "startX": 1300,
+            "startY": 1674,
+            "endX": 1387,
+            "endY": 1720,
+            "text": "3828",
+            "startIndex": 1447,
+            "endIndex": 1450
+          },
+          {
+            "id": "token_0_1397_1674_1423_1720",
+            "startX": 1397,
+            "startY": 1674,
+            "endX": 1423,
+            "endY": 1720,
+            "text": "W",
+            "startIndex": 1452,
+            "endIndex": 1452
+          },
+          {
+            "id": "token_0_1446_1674_1649_1721",
+            "startX": 1446,
+            "startY": 1674,
+            "endX": 1649,
+            "endY": 1721,
+            "text": "Sharpshin",
+            "startIndex": 1454,
+            "endIndex": 1462
+          },
+          {
+            "id": "token_0_1660_1674_1717_1721",
+            "startX": 1660,
+            "startY": 1674,
+            "endX": 1717,
+            "endY": 1721,
+            "text": "Dr,",
+            "startIndex": 1464,
+            "endIndex": 1466
+          },
+          {
+            "id": "token_0_1727_1674_1845_1721",
+            "startX": 1727,
+            "startY": 1674,
+            "endX": 1845,
+            "endY": 1721,
+            "text": "Coeur",
+            "startIndex": 1468,
+            "endIndex": 1472
+          },
+          {
+            "id": "token_0_1855_1674_1881_1721",
+            "startX": 1855,
+            "startY": 1674,
+            "endX": 1881,
+            "endY": 1721,
+            "text": "D",
+            "startIndex": 1474,
+            "endIndex": 1474
+          },
+          {
+            "id": "token_0_1894_1674_2019_1720",
+            "startX": 1894,
+            "startY": 1674,
+            "endX": 2019,
+            "endY": 1720,
+            "text": "Alene,",
+            "startIndex": 1476,
+            "endIndex": 1481
+          },
+          {
+            "id": "token_0_2028_1674_2070_1720",
+            "startX": 2028,
+            "startY": 1674,
+            "endX": 2070,
+            "endY": 1720,
+            "text": "ID",
+            "startIndex": 1483,
+            "endIndex": 1484
+          },
+          {
+            "id": "token_0_2080_1674_2202_1719",
+            "startX": 2080,
+            "startY": 1674,
+            "endX": 2202,
+            "endY": 1719,
+            "text": "83815",
+            "startIndex": 1486,
+            "endIndex": 1490
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": true,
+        "isDeleted": false,
+        "confidence": 0.096
+      }
+    ],
+    [
+      {
+        "id": "4_1_0",
+        "headerId": "1",
+        "rowNumber": 1,
+        "columnNumber": 0,
+        "value": "County / Number of Units",
+        "valueObject": null,
+        "startX": 208,
+        "startY": 1721,
+        "endX": 1016,
+        "endY": 1772,
+        "tokens": [
+          {
+            "id": "token_0_228_1726_369_1771",
+            "startX": 228,
+            "startY": 1726,
+            "endX": 369,
+            "endY": 1771,
+            "text": "County",
+            "startIndex": 1492,
+            "endIndex": 1497
+          },
+          {
+            "id": "token_0_379_1724_393_1771",
+            "startX": 379,
+            "startY": 1724,
+            "endX": 393,
+            "endY": 1771,
+            "text": "/",
+            "startIndex": 1499,
+            "endIndex": 1499
+          },
+          {
+            "id": "token_0_403_1724_559_1771",
+            "startX": 403,
+            "startY": 1724,
+            "endX": 559,
+            "endY": 1771,
+            "text": "Number",
+            "startIndex": 1501,
+            "endIndex": 1506
+          },
+          {
+            "id": "token_0_569_1724_611_1770",
+            "startX": 569,
+            "startY": 1724,
+            "endX": 611,
+            "endY": 1770,
+            "text": "of",
+            "startIndex": 1508,
+            "endIndex": 1509
+          },
+          {
+            "id": "token_0_621_1724_726_1768",
+            "startX": 621,
+            "startY": 1724,
+            "endX": 726,
+            "endY": 1768,
+            "text": "Units",
+            "startIndex": 1511,
+            "endIndex": 1515
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      },
+      {
+        "id": "4_1_1",
+        "headerId": "2",
+        "rowNumber": 1,
+        "columnNumber": 1,
+        "value": "Kootenai County - 1 Unit",
+        "valueObject": null,
+        "startX": 1016,
+        "startY": 1721,
+        "endX": 2350,
+        "endY": 1772,
+        "tokens": [
+          {
+            "id": "token_0_1297_1724_1472_1771",
+            "startX": 1297,
+            "startY": 1724,
+            "endX": 1472,
+            "endY": 1771,
+            "text": "Kootenai",
+            "startIndex": 1556,
+            "endIndex": 1563
+          },
+          {
+            "id": "token_0_1483_1726_1622_1772",
+            "startX": 1483,
+            "startY": 1726,
+            "endX": 1622,
+            "endY": 1772,
+            "text": "County",
+            "startIndex": 1565,
+            "endIndex": 1570
+          },
+          {
+            "id": "token_0_1634_1725_1657_1771",
+            "startX": 1634,
+            "startY": 1725,
+            "endX": 1657,
+            "endY": 1771,
+            "text": "-",
+            "startIndex": 1572,
+            "endIndex": 1572
+          },
+          {
+            "id": "token_0_1690_1725_1708_1770",
+            "startX": 1690,
+            "startY": 1725,
+            "endX": 1708,
+            "endY": 1770,
+            "text": "1",
+            "startIndex": 1574,
+            "endIndex": 1574
+          },
+          {
+            "id": "token_0_1719_1725_1806_1767",
+            "startX": 1719,
+            "startY": 1725,
+            "endX": 1806,
+            "endY": 1767,
+            "text": "Unit",
+            "startIndex": 1576,
+            "endIndex": 1579
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      }
+    ],
+    [
+      {
+        "id": "4_2_0",
+        "headerId": "1",
+        "rowNumber": 2,
+        "columnNumber": 0,
+        "value": "Appraised Property Value",
+        "valueObject": null,
+        "startX": 208,
+        "startY": 1772,
+        "endX": 1016,
+        "endY": 1824,
+        "tokens": [
+          {
+            "id": "token_0_229_1776_430_1823",
+            "startX": 229,
+            "startY": 1776,
+            "endX": 430,
+            "endY": 1823,
+            "text": "Appraised",
+            "startIndex": 1581,
+            "endIndex": 1589
+          },
+          {
+            "id": "token_0_441_1776_612_1823",
+            "startX": 441,
+            "startY": 1776,
+            "endX": 612,
+            "endY": 1823,
+            "text": "Property",
+            "startIndex": 1591,
+            "endIndex": 1598
+          },
+          {
+            "id": "token_0_623_1777_729_1824",
+            "startX": 623,
+            "startY": 1777,
+            "endX": 729,
+            "endY": 1824,
+            "text": "Value",
+            "startIndex": 1600,
+            "endIndex": 1604
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      },
+      {
+        "id": "4_2_1",
+        "headerId": "2",
+        "rowNumber": 2,
+        "columnNumber": 1,
+        "value": "$415,000.00",
+        "valueObject": null,
+        "startX": 1016,
+        "startY": 1772,
+        "endX": 2350,
+        "endY": 1824,
+        "tokens": [
+          {
+            "id": "token_0_1301_1776_1525_1819",
+            "startX": 1301,
+            "startY": 1776,
+            "endX": 1525,
+            "endY": 1819,
+            "text": "$415,000.00",
+            "startIndex": 1645,
+            "endIndex": 1655
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      }
+    ],
+    [
+      {
+        "id": "4_3_0",
+        "headerId": "1",
+        "rowNumber": 3,
+        "columnNumber": 0,
+        "value": "Loan Amount",
+        "valueObject": null,
+        "startX": 208,
+        "startY": 1824,
+        "endX": 1016,
+        "endY": 1870,
+        "tokens": [
+          {
+            "id": "token_0_233_1828_321_1869",
+            "startX": 233,
+            "startY": 1828,
+            "endX": 321,
+            "endY": 1869,
+            "text": "Loan",
+            "startIndex": 1657,
+            "endIndex": 1660
+          },
+          {
+            "id": "token_0_338_1827_498_1870",
+            "startX": 338,
+            "startY": 1827,
+            "endX": 498,
+            "endY": 1870,
+            "text": "Amount",
+            "startIndex": 1662,
+            "endIndex": 1667
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      },
+      {
+        "id": "4_3_1",
+        "headerId": "2",
+        "rowNumber": 3,
+        "columnNumber": 1,
+        "value": "$394,250.00",
+        "valueObject": null,
+        "startX": 1016,
+        "startY": 1824,
+        "endX": 2350,
+        "endY": 1870,
+        "tokens": [
+          {
+            "id": "token_0_1301_1828_1523_1869",
+            "startX": 1301,
+            "startY": 1828,
+            "endX": 1523,
+            "endY": 1869,
+            "text": "$394,250.00",
+            "startIndex": 1721,
+            "endIndex": 1731
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      }
+    ],
+    [
+      {
+        "id": "4_4_0",
+        "headerId": "1",
+        "rowNumber": 4,
+        "columnNumber": 0,
+        "value": "Down Payment",
+        "valueObject": null,
+        "startX": 208,
+        "startY": 1870,
+        "endX": 1016,
+        "endY": 1923,
+        "tokens": [
+          {
+            "id": "token_0_227_1876_340_1921",
+            "startX": 227,
+            "startY": 1876,
+            "endX": 340,
+            "endY": 1921,
+            "text": "Down",
+            "startIndex": 1733,
+            "endIndex": 1736
+          },
+          {
+            "id": "token_0_351_1878_529_1923",
+            "startX": 351,
+            "startY": 1878,
+            "endX": 529,
+            "endY": 1923,
+            "text": "Payment",
+            "startIndex": 1738,
+            "endIndex": 1744
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      },
+      {
+        "id": "4_4_1",
+        "headerId": "2",
+        "rowNumber": 4,
+        "columnNumber": 1,
+        "value": "$20,750.00",
+        "valueObject": null,
+        "startX": 1016,
+        "startY": 1870,
+        "endX": 2350,
+        "endY": 1923,
+        "tokens": [
+          {
+            "id": "token_0_1299_1875_1502_1920",
+            "startX": 1299,
+            "startY": 1875,
+            "endX": 1502,
+            "endY": 1920,
+            "text": "$20,750.00",
+            "startIndex": 1797,
+            "endIndex": 1806
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      }
+    ],
+    [
+      {
+        "id": "4_5_0",
+        "headerId": "1",
+        "rowNumber": 5,
+        "columnNumber": 0,
+        "value": "Title Holders",
+        "valueObject": null,
+        "startX": 208,
+        "startY": 1923,
+        "endX": 1016,
+        "endY": 1975,
+        "tokens": [
+          {
+            "id": "token_0_232_1929_313_1970",
+            "startX": 232,
+            "startY": 1929,
+            "endX": 313,
+            "endY": 1970,
+            "text": "Title",
+            "startIndex": 1808,
+            "endIndex": 1812
+          },
+          {
+            "id": "token_0_322_1927_479_1971",
+            "startX": 322,
+            "startY": 1927,
+            "endX": 479,
+            "endY": 1971,
+            "text": "Holders",
+            "startIndex": 1814,
+            "endIndex": 1820
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      },
+      {
+        "id": "4_5_1",
+        "headerId": "2",
+        "rowNumber": 5,
+        "columnNumber": 1,
+        "value": "Kayla M Ealy, Ryan T Ealy, Ann Marie Ealy",
+        "valueObject": null,
+        "startX": 1016,
+        "startY": 1923,
+        "endX": 2350,
+        "endY": 1975,
+        "tokens": [
+          {
+            "id": "token_0_1299_1927_1405_1972",
+            "startX": 1299,
+            "startY": 1927,
+            "endX": 1405,
+            "endY": 1972,
+            "text": "Kayla",
+            "startIndex": 1872,
+            "endIndex": 1876
+          },
+          {
+            "id": "token_0_1416_1927_1440_1972",
+            "startX": 1416,
+            "startY": 1927,
+            "endX": 1440,
+            "endY": 1972,
+            "text": "M",
+            "startIndex": 1878,
+            "endIndex": 1878
+          },
+          {
+            "id": "token_0_1461_1927_1555_1972",
+            "startX": 1461,
+            "startY": 1927,
+            "endX": 1555,
+            "endY": 1972,
+            "text": "Ealy,",
+            "startIndex": 1880,
+            "endIndex": 1884
+          },
+          {
+            "id": "token_0_1567_1926_1666_1972",
+            "startX": 1567,
+            "startY": 1926,
+            "endX": 1666,
+            "endY": 1972,
+            "text": "Ryan",
+            "startIndex": 1886,
+            "endIndex": 1889
+          },
+          {
+            "id": "token_0_1681_1926_1702_1973",
+            "startX": 1681,
+            "startY": 1926,
+            "endX": 1702,
+            "endY": 1973,
+            "text": "T",
+            "startIndex": 1891,
+            "endIndex": 1891
+          },
+          {
+            "id": "token_0_1714_1926_1808_1973",
+            "startX": 1714,
+            "startY": 1926,
+            "endX": 1808,
+            "endY": 1973,
+            "text": "Ealy,",
+            "startIndex": 1893,
+            "endIndex": 1897
+          },
+          {
+            "id": "token_0_1820_1927_1897_1974",
+            "startX": 1820,
+            "startY": 1927,
+            "endX": 1897,
+            "endY": 1974,
+            "text": "Ann",
+            "startIndex": 1899,
+            "endIndex": 1901
+          },
+          {
+            "id": "token_0_1910_1927_2018_1974",
+            "startX": 1910,
+            "startY": 1927,
+            "endX": 2018,
+            "endY": 1974,
+            "text": "Marie",
+            "startIndex": 1903,
+            "endIndex": 1907
+          },
+          {
+            "id": "token_0_2031_1928_2117_1975",
+            "startX": 2031,
+            "startY": 1928,
+            "endX": 2117,
+            "endY": 1975,
+            "text": "Ealy",
+            "startIndex": 1909,
+            "endIndex": 1912
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      }
+    ],
+    [
+      {
+        "id": "4_6_0",
+        "headerId": "1",
+        "rowNumber": 6,
+        "columnNumber": 0,
+        "value": "Estate / Title Type",
+        "valueObject": null,
+        "startX": 208,
+        "startY": 1975,
+        "endX": 1016,
+        "endY": 2022,
+        "tokens": [
+          {
+            "id": "token_0_230_1978_351_2021",
+            "startX": 230,
+            "startY": 1978,
+            "endX": 351,
+            "endY": 2021,
+            "text": "Estate",
+            "startIndex": 1914,
+            "endIndex": 1919
+          },
+          {
+            "id": "token_0_361_1978_379_2021",
+            "startX": 361,
+            "startY": 1978,
+            "endX": 379,
+            "endY": 2021,
+            "text": "/",
+            "startIndex": 1921,
+            "endIndex": 1921
+          },
+          {
+            "id": "token_0_389_1978_474_2021",
+            "startX": 389,
+            "startY": 1978,
+            "endX": 474,
+            "endY": 2021,
+            "text": "Title",
+            "startIndex": 1923,
+            "endIndex": 1927
+          },
+          {
+            "id": "token_0_484_1979_577_2022",
+            "startX": 484,
+            "startY": 1979,
+            "endX": 577,
+            "endY": 2022,
+            "text": "Type",
+            "startIndex": 1929,
+            "endIndex": 1932
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      },
+      {
+        "id": "4_6_1",
+        "headerId": "2",
+        "rowNumber": 6,
+        "columnNumber": 1,
+        "value": "Fee Simple / Other",
+        "valueObject": null,
+        "startX": 1016,
+        "startY": 1975,
+        "endX": 2350,
+        "endY": 2022,
+        "tokens": [
+          {
+            "id": "token_0_1301_1980_1366_2021",
+            "startX": 1301,
+            "startY": 1980,
+            "endX": 1366,
+            "endY": 2021,
+            "text": "Fee",
+            "startIndex": 1978,
+            "endIndex": 1980
+          },
+          {
+            "id": "token_0_1375_1978_1512_2021",
+            "startX": 1375,
+            "startY": 1978,
+            "endX": 1512,
+            "endY": 2021,
+            "text": "Simple",
+            "startIndex": 1982,
+            "endIndex": 1987
+          },
+          {
+            "id": "token_0_1523_1978_1537_2021",
+            "startX": 1523,
+            "startY": 1978,
+            "endX": 1537,
+            "endY": 2021,
+            "text": "/",
+            "startIndex": 1989,
+            "endIndex": 1989
+          },
+          {
+            "id": "token_0_1548_1978_1659_2021",
+            "startX": 1548,
+            "startY": 1978,
+            "endX": 1659,
+            "endY": 2021,
+            "text": "Other",
+            "startIndex": 1991,
+            "endIndex": 1995
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      }
+    ],
+    [
+      {
+        "id": "4_7_0",
+        "headerId": "1",
+        "rowNumber": 7,
+        "columnNumber": 0,
+        "value": "Mixed-Use / Manufactured",
+        "valueObject": null,
+        "startX": 208,
+        "startY": 2022,
+        "endX": 1016,
+        "endY": 2088,
+        "tokens": [
+          {
+            "id": "token_0_228_2029_432_2071",
+            "startX": 228,
+            "startY": 2029,
+            "endX": 432,
+            "endY": 2071,
+            "text": "Mixed-Use",
+            "startIndex": 1997,
+            "endIndex": 2005
+          },
+          {
+            "id": "token_0_441_2027_458_2072",
+            "startX": 441,
+            "startY": 2027,
+            "endX": 458,
+            "endY": 2072,
+            "text": "/",
+            "startIndex": 2007,
+            "endIndex": 2007
+          },
+          {
+            "id": "token_0_467_2027_736_2072",
+            "startX": 467,
+            "startY": 2027,
+            "endX": 736,
+            "endY": 2072,
+            "text": "Manufactured",
+            "startIndex": 2009,
+            "endIndex": 2020
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      },
+      {
+        "id": "4_7_1",
+        "headerId": "2",
+        "rowNumber": 7,
+        "columnNumber": 1,
+        "value": "Mixed-Use: No | Manufactured: No",
+        "valueObject": null,
+        "startX": 1016,
+        "startY": 2022,
+        "endX": 2350,
+        "endY": 2088,
+        "tokens": [
+          {
+            "id": "token_0_1296_2028_1514_2072",
+            "startX": 1296,
+            "startY": 2028,
+            "endX": 1514,
+            "endY": 2072,
+            "text": "Mixed-Use:",
+            "startIndex": 2061,
+            "endIndex": 2070
+          },
+          {
+            "id": "token_0_1524_2026_1580_2072",
+            "startX": 1524,
+            "startY": 2026,
+            "endX": 1580,
+            "endY": 2072,
+            "text": "No",
+            "startIndex": 2072,
+            "endIndex": 2073
+          },
+          {
+            "id": "token_0_1590_2025_1603_2072",
+            "startX": 1590,
+            "startY": 2025,
+            "endX": 1603,
+            "endY": 2072,
+            "text": "|",
+            "startIndex": 2075,
+            "endIndex": 2075
+          },
+          {
+            "id": "token_0_1614_2026_1898_2073",
+            "startX": 1614,
+            "startY": 2026,
+            "endX": 1898,
+            "endY": 2073,
+            "text": "Manufactured:",
+            "startIndex": 2077,
+            "endIndex": 2089
+          },
+          {
+            "id": "token_0_1908_2029_1963_2073",
+            "startX": 1908,
+            "startY": 2029,
+            "endX": 1963,
+            "endY": 2073,
+            "text": "No",
+            "startIndex": 2091,
+            "endIndex": 2092
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.096
+      }
+    ]
+  ],
+  "fieldExtractionRawOutputId": "7d4a8f24-550a-11f1-95d9-a65ccfb099c7",
+  "isCorrected": false,
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "bBoxExtractionRequestId": null,
+  "createdDate": {
+    "$date": "2026-05-21T11:44:56.531Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-05-21T11:45:02.268Z"
+  },
+  "extractionFieldId": "9ef24907-f8f1-4e03-8313-30336449d30a"
+},
+{
+  "_id": "7d4d9cfa-550a-11f1-95d9-a65ccfb099c7",
+  "pageNumber": 4,
+  "startX": 207,
+  "startY": 823,
+  "endX": 2337,
+  "endY": 1393,
+  "rowCount": 6,
+  "columnCount": 4,
+  "isHeaderMarked": false,
+  "isHeaderAdded": false,
+  "confidence": 0.9978892803192139,
+  "values": [
+    [
+      {
+        "id": "4_0_0",
+        "headerId": "1",
+        "rowNumber": 0,
+        "columnNumber": 0,
+        "value": "Lender",
+        "valueObject": null,
+        "startX": 207,
+        "startY": 823,
+        "endX": 651,
+        "endY": 945,
+        "tokens": [
+          {
+            "id": "token_0_227_878_372_921",
+            "startX": 227,
+            "startY": 878,
+            "endX": 372,
+            "endY": 921,
+            "text": "Lender",
+            "startIndex": 287,
+            "endIndex": 292
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": true,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_0_1",
+        "headerId": "2",
+        "rowNumber": 0,
+        "columnNumber": 1,
+        "value": "Better Mortgage Corporation",
+        "valueObject": null,
+        "startX": 651,
+        "startY": 823,
+        "endX": 1235,
+        "endY": 945,
+        "tokens": [
+          {
+            "id": "token_0_761_854_878_897",
+            "startX": 761,
+            "startY": 854,
+            "endX": 878,
+            "endY": 897,
+            "text": "Better",
+            "startIndex": 319,
+            "endIndex": 324
+          },
+          {
+            "id": "token_0_889_853_1075_903",
+            "startX": 889,
+            "startY": 853,
+            "endX": 1075,
+            "endY": 903,
+            "text": "Mortgage",
+            "startIndex": 326,
+            "endIndex": 333
+          },
+          {
+            "id": "token_0_765_902_992_945",
+            "startX": 765,
+            "startY": 902,
+            "endX": 992,
+            "endY": 945,
+            "text": "Corporation",
+            "startIndex": 421,
+            "endIndex": 431
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": true,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_0_2",
+        "headerId": "3",
+        "rowNumber": 0,
+        "columnNumber": 2,
+        "value": "Loan Number",
+        "valueObject": null,
+        "startX": 1235,
+        "startY": 823,
+        "endX": 1745,
+        "endY": 945,
+        "tokens": [
+          {
+            "id": "token_0_1291_876_1387_923",
+            "startX": 1291,
+            "startY": 876,
+            "endX": 1387,
+            "endY": 923,
+            "text": "Loan",
+            "startIndex": 351,
+            "endIndex": 354
+          },
+          {
+            "id": "token_0_1400_876_1558_923",
+            "startX": 1400,
+            "startY": 876,
+            "endX": 1558,
+            "endY": 923,
+            "text": "Number",
+            "startIndex": 356,
+            "endIndex": 361
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": true,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_0_3",
+        "headerId": "4",
+        "rowNumber": 0,
+        "columnNumber": 3,
+        "value": "1875274460",
+        "valueObject": null,
+        "startX": 1745,
+        "startY": 823,
+        "endX": 2337,
+        "endY": 945,
+        "tokens": [
+          {
+            "id": "token_0_1826_877_2054_921",
+            "startX": 1826,
+            "startY": 877,
+            "endX": 2054,
+            "endY": 921,
+            "text": "1875274460",
+            "startIndex": 378,
+            "endIndex": 387
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": true,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "4_1_0",
+        "headerId": "1",
+        "rowNumber": 1,
+        "columnNumber": 0,
+        "value": "Loan Purpose",
+        "valueObject": null,
+        "startX": 207,
+        "startY": 945,
+        "endX": 651,
+        "endY": 1037,
+        "tokens": [
+          {
+            "id": "token_0_230_974_325_1019",
+            "startX": 230,
+            "startY": 974,
+            "endX": 325,
+            "endY": 1019,
+            "text": "Loan",
+            "startIndex": 545,
+            "endIndex": 548
+          },
+          {
+            "id": "token_0_336_975_505_1023",
+            "startX": 336,
+            "startY": 975,
+            "endX": 505,
+            "endY": 1023,
+            "text": "Purpose",
+            "startIndex": 550,
+            "endIndex": 556
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_1_1",
+        "headerId": "2",
+        "rowNumber": 1,
+        "columnNumber": 1,
+        "value": "Purchase",
+        "valueObject": null,
+        "startX": 651,
+        "startY": 945,
+        "endX": 1235,
+        "endY": 1037,
+        "tokens": [
+          {
+            "id": "token_0_759_975_945_1020",
+            "startX": 759,
+            "startY": 975,
+            "endX": 945,
+            "endY": 1020,
+            "text": "Purchase",
+            "startIndex": 577,
+            "endIndex": 584
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_1_2",
+        "headerId": "3",
+        "rowNumber": 1,
+        "columnNumber": 2,
+        "value": "Loan Type",
+        "valueObject": null,
+        "startX": 1235,
+        "startY": 945,
+        "endX": 1745,
+        "endY": 1037,
+        "tokens": [
+          {
+            "id": "token_0_1297_972_1387_1020",
+            "startX": 1297,
+            "startY": 972,
+            "endX": 1387,
+            "endY": 1020,
+            "text": "Loan",
+            "startIndex": 609,
+            "endIndex": 612
+          },
+          {
+            "id": "token_0_1402_973_1496_1022",
+            "startX": 1402,
+            "startY": 973,
+            "endX": 1496,
+            "endY": 1022,
+            "text": "Type",
+            "startIndex": 614,
+            "endIndex": 617
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_1_3",
+        "headerId": "4",
+        "rowNumber": 1,
+        "columnNumber": 3,
+        "value": "Conventional - First Lien",
+        "valueObject": null,
+        "startX": 1745,
+        "startY": 945,
+        "endX": 2337,
+        "endY": 1037,
+        "tokens": [
+          {
+            "id": "token_0_1830_952_2083_994",
+            "startX": 1830,
+            "startY": 952,
+            "endX": 2083,
+            "endY": 994,
+            "text": "Conventional",
+            "startIndex": 524,
+            "endIndex": 535
+          },
+          {
+            "id": "token_0_2092_951_2115_994",
+            "startX": 2092,
+            "startY": 951,
+            "endX": 2115,
+            "endY": 994,
+            "text": "-",
+            "startIndex": 537,
+            "endIndex": 537
+          },
+          {
+            "id": "token_0_2145_951_2242_994",
+            "startX": 2145,
+            "startY": 951,
+            "endX": 2242,
+            "endY": 994,
+            "text": "First",
+            "startIndex": 539,
+            "endIndex": 543
+          },
+          {
+            "id": "token_0_1829_1000_1904_1037",
+            "startX": 1829,
+            "startY": 1000,
+            "endX": 1904,
+            "endY": 1037,
+            "text": "Lien",
+            "startIndex": 636,
+            "endIndex": 639
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "4_2_0",
+        "headerId": "1",
+        "rowNumber": 2,
+        "columnNumber": 0,
+        "value": "Loan Amount",
+        "valueObject": null,
+        "startX": 207,
+        "startY": 1037,
+        "endX": 651,
+        "endY": 1091,
+        "tokens": [
+          {
+            "id": "token_0_230_1050_321_1089",
+            "startX": 230,
+            "startY": 1050,
+            "endX": 321,
+            "endY": 1089,
+            "text": "Loan",
+            "startIndex": 641,
+            "endIndex": 644
+          },
+          {
+            "id": "token_0_340_1050_497_1089",
+            "startX": 340,
+            "startY": 1050,
+            "endX": 497,
+            "endY": 1089,
+            "text": "Amount",
+            "startIndex": 646,
+            "endIndex": 651
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_2_1",
+        "headerId": "2",
+        "rowNumber": 2,
+        "columnNumber": 1,
+        "value": "$394,250.00",
+        "valueObject": null,
+        "startX": 651,
+        "startY": 1037,
+        "endX": 1235,
+        "endY": 1091,
+        "tokens": [
+          {
+            "id": "token_0_764_1049_989_1087",
+            "startX": 764,
+            "startY": 1049,
+            "endX": 989,
+            "endY": 1087,
+            "text": "$394,250.00",
+            "startIndex": 673,
+            "endIndex": 683
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_2_2",
+        "headerId": "3",
+        "rowNumber": 2,
+        "columnNumber": 2,
+        "value": "Property Value",
+        "valueObject": null,
+        "startX": 1235,
+        "startY": 1037,
+        "endX": 1745,
+        "endY": 1091,
+        "tokens": [
+          {
+            "id": "token_0_1291_1048_1464_1091",
+            "startX": 1291,
+            "startY": 1048,
+            "endX": 1464,
+            "endY": 1091,
+            "text": "Property",
+            "startIndex": 705,
+            "endIndex": 712
+          },
+          {
+            "id": "token_0_1474_1048_1583_1090",
+            "startX": 1474,
+            "startY": 1048,
+            "endX": 1583,
+            "endY": 1090,
+            "text": "Value",
+            "startIndex": 714,
+            "endIndex": 718
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_2_3",
+        "headerId": "4",
+        "rowNumber": 2,
+        "columnNumber": 3,
+        "value": "$415,000.00",
+        "valueObject": null,
+        "startX": 1745,
+        "startY": 1037,
+        "endX": 2337,
+        "endY": 1091,
+        "tokens": [
+          {
+            "id": "token_0_1827_1048_2055_1090",
+            "startX": 1827,
+            "startY": 1048,
+            "endX": 2055,
+            "endY": 1090,
+            "text": "$415,000.00",
+            "startIndex": 732,
+            "endIndex": 742
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "4_3_0",
+        "headerId": "1",
+        "rowNumber": 3,
+        "columnNumber": 0,
+        "value": "Note Rate LTV",
+        "valueObject": null,
+        "startX": 207,
+        "startY": 1091,
+        "endX": 651,
+        "endY": 1198,
+        "tokens": [
+          {
+            "id": "token_0_229_1100_319_1139",
+            "startX": 229,
+            "startY": 1100,
+            "endX": 319,
+            "endY": 1139,
+            "text": "Note",
+            "startIndex": 744,
+            "endIndex": 747
+          },
+          {
+            "id": "token_0_333_1101_418_1137",
+            "startX": 333,
+            "startY": 1101,
+            "endX": 418,
+            "endY": 1137,
+            "text": "Rate",
+            "startIndex": 749,
+            "endIndex": 752
+          },
+          {
+            "id": "token_0_231_1150_301_1191",
+            "startX": 231,
+            "startY": 1150,
+            "endX": 301,
+            "endY": 1191,
+            "text": "LTV",
+            "startIndex": 855,
+            "endIndex": 857
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_3_1",
+        "headerId": "2",
+        "rowNumber": 3,
+        "columnNumber": 1,
+        "value": "6.375% Fixed ~94.99%",
+        "valueObject": null,
+        "startX": 651,
+        "startY": 1091,
+        "endX": 1235,
+        "endY": 1198,
+        "tokens": [
+          {
+            "id": "token_0_767_1098_901_1141",
+            "startX": 767,
+            "startY": 1098,
+            "endX": 901,
+            "endY": 1141,
+            "text": "6.375%",
+            "startIndex": 776,
+            "endIndex": 781
+          },
+          {
+            "id": "token_0_910_1099_1019_1141",
+            "startX": 910,
+            "startY": 1099,
+            "endX": 1019,
+            "endY": 1141,
+            "text": "Fixed",
+            "startIndex": 783,
+            "endIndex": 787
+          },
+          {
+            "id": "token_0_766_1151_925_1193",
+            "startX": 766,
+            "startY": 1151,
+            "endX": 925,
+            "endY": 1193,
+            "text": "~94.99%",
+            "startIndex": 886,
+            "endIndex": 892
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_3_2",
+        "headerId": "3",
+        "rowNumber": 3,
+        "columnNumber": 2,
+        "value": "Loan Term Occupancy",
+        "valueObject": null,
+        "startX": 1235,
+        "startY": 1091,
+        "endX": 1745,
+        "endY": 1198,
+        "tokens": [
+          {
+            "id": "token_0_1296_1099_1386_1140",
+            "startX": 1296,
+            "startY": 1099,
+            "endX": 1386,
+            "endY": 1140,
+            "text": "Loan",
+            "startIndex": 808,
+            "endIndex": 811
+          },
+          {
+            "id": "token_0_1405_1101_1488_1142",
+            "startX": 1405,
+            "startY": 1101,
+            "endX": 1488,
+            "endY": 1142,
+            "text": "Term",
+            "startIndex": 813,
+            "endIndex": 816
+          },
+          {
+            "id": "token_0_1293_1150_1513_1198",
+            "startX": 1293,
+            "startY": 1150,
+            "endX": 1513,
+            "endY": 1198,
+            "text": "Occupancy",
+            "startIndex": 918,
+            "endIndex": 926
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_3_3",
+        "headerId": "4",
+        "rowNumber": 3,
+        "columnNumber": 3,
+        "value": "360 months (30 yr) Primary Residence",
+        "valueObject": null,
+        "startX": 1745,
+        "startY": 1091,
+        "endX": 2337,
+        "endY": 1198,
+        "tokens": [
+          {
+            "id": "token_0_1826_1097_1891_1143",
+            "startX": 1826,
+            "startY": 1097,
+            "endX": 1891,
+            "endY": 1143,
+            "text": "360",
+            "startIndex": 835,
+            "endIndex": 837
+          },
+          {
+            "id": "token_0_1900_1099_2051_1144",
+            "startX": 1900,
+            "startY": 1099,
+            "endX": 2051,
+            "endY": 1144,
+            "text": "months",
+            "startIndex": 839,
+            "endIndex": 844
+          },
+          {
+            "id": "token_0_2061_1101_2123_1145",
+            "startX": 2061,
+            "startY": 1101,
+            "endX": 2123,
+            "endY": 1145,
+            "text": "(30",
+            "startIndex": 846,
+            "endIndex": 848
+          },
+          {
+            "id": "token_0_2133_1101_2193_1146",
+            "startX": 2133,
+            "startY": 1101,
+            "endX": 2193,
+            "endY": 1146,
+            "text": "yr)",
+            "startIndex": 850,
+            "endIndex": 852
+          },
+          {
+            "id": "token_0_1824_1147_1978_1194",
+            "startX": 1824,
+            "startY": 1147,
+            "endX": 1978,
+            "endY": 1194,
+            "text": "Primary",
+            "startIndex": 945,
+            "endIndex": 951
+          },
+          {
+            "id": "token_0_1987_1149_2194_1191",
+            "startX": 1987,
+            "startY": 1149,
+            "endX": 2194,
+            "endY": 1191,
+            "text": "Residence",
+            "startIndex": 953,
+            "endIndex": 961
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "4_4_0",
+        "headerId": "1",
+        "rowNumber": 4,
+        "columnNumber": 0,
+        "value": "Project Type",
+        "valueObject": null,
+        "startX": 207,
+        "startY": 1198,
+        "endX": 651,
+        "endY": 1289,
+        "tokens": [
+          {
+            "id": "token_0_227_1222_368_1272",
+            "startX": 227,
+            "startY": 1222,
+            "endX": 368,
+            "endY": 1272,
+            "text": "Project",
+            "startIndex": 1068,
+            "endIndex": 1074
+          },
+          {
+            "id": "token_0_381_1223_475_1272",
+            "startX": 381,
+            "startY": 1223,
+            "endX": 475,
+            "endY": 1272,
+            "text": "Type",
+            "startIndex": 1076,
+            "endIndex": 1079
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_4_1",
+        "headerId": "2",
+        "rowNumber": 4,
+        "columnNumber": 1,
+        "value": "Planned Unit Development (PUD)",
+        "valueObject": null,
+        "startX": 651,
+        "startY": 1198,
+        "endX": 1235,
+        "endY": 1289,
+        "tokens": [
+          {
+            "id": "token_0_760_1200_918_1243",
+            "startX": 760,
+            "startY": 1200,
+            "endX": 918,
+            "endY": 1243,
+            "text": "Planned",
+            "startIndex": 995,
+            "endIndex": 1001
+          },
+          {
+            "id": "token_0_932_1199_1015_1244",
+            "startX": 932,
+            "startY": 1199,
+            "endX": 1015,
+            "endY": 1244,
+            "text": "Unit",
+            "startIndex": 1003,
+            "endIndex": 1006
+          },
+          {
+            "id": "token_0_765_1246_1017_1289",
+            "startX": 765,
+            "startY": 1246,
+            "endX": 1017,
+            "endY": 1289,
+            "text": "Development",
+            "startIndex": 1100,
+            "endIndex": 1110
+          },
+          {
+            "id": "token_0_1029_1245_1144_1289",
+            "startX": 1029,
+            "startY": 1245,
+            "endX": 1144,
+            "endY": 1289,
+            "text": "(PUD)",
+            "startIndex": 1112,
+            "endIndex": 1116
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_4_2",
+        "headerId": "3",
+        "rowNumber": 4,
+        "columnNumber": 2,
+        "value": "MI (Monthly)",
+        "valueObject": null,
+        "startX": 1235,
+        "startY": 1198,
+        "endX": 1745,
+        "endY": 1289,
+        "tokens": [
+          {
+            "id": "token_0_1291_1217_1335_1269",
+            "startX": 1291,
+            "startY": 1217,
+            "endX": 1335,
+            "endY": 1269,
+            "text": "MI",
+            "startIndex": 1027,
+            "endIndex": 1028
+          },
+          {
+            "id": "token_0_1348_1218_1539_1273",
+            "startX": 1348,
+            "startY": 1218,
+            "endX": 1539,
+            "endY": 1273,
+            "text": "(Monthly)",
+            "startIndex": 1030,
+            "endIndex": 1038
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_4_3",
+        "headerId": "4",
+        "rowNumber": 4,
+        "columnNumber": 3,
+        "value": "$182.48/month",
+        "valueObject": null,
+        "startX": 1745,
+        "startY": 1198,
+        "endX": 2337,
+        "endY": 1289,
+        "tokens": [
+          {
+            "id": "token_0_1824_1221_2109_1266",
+            "startX": 1824,
+            "startY": 1221,
+            "endX": 2109,
+            "endY": 1266,
+            "text": "$182.48/month",
+            "startIndex": 1054,
+            "endIndex": 1066
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "4_5_0",
+        "headerId": "1",
+        "rowNumber": 5,
+        "columnNumber": 0,
+        "value": "Loan Originator",
+        "valueObject": null,
+        "startX": 207,
+        "startY": 1289,
+        "endX": 651,
+        "endY": 1393,
+        "tokens": [
+          {
+            "id": "token_0_233_1316_326_1364",
+            "startX": 233,
+            "startY": 1316,
+            "endX": 326,
+            "endY": 1364,
+            "text": "Loan",
+            "startIndex": 1119,
+            "endIndex": 1122
+          },
+          {
+            "id": "token_0_338_1316_543_1364",
+            "startX": 338,
+            "startY": 1316,
+            "endX": 543,
+            "endY": 1364,
+            "text": "Originator",
+            "startIndex": 1124,
+            "endIndex": 1133
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_5_1",
+        "headerId": "2",
+        "rowNumber": 5,
+        "columnNumber": 1,
+        "value": "Jacky Vuong (NMLSR 1787403)",
+        "valueObject": null,
+        "startX": 651,
+        "startY": 1289,
+        "endX": 1235,
+        "endY": 1393,
+        "tokens": [
+          {
+            "id": "token_0_762_1295_877_1341",
+            "startX": 762,
+            "startY": 1295,
+            "endX": 877,
+            "endY": 1341,
+            "text": "Jacky",
+            "startIndex": 1167,
+            "endIndex": 1171
+          },
+          {
+            "id": "token_0_887_1294_1013_1341",
+            "startX": 887,
+            "startY": 1294,
+            "endX": 1013,
+            "endY": 1341,
+            "text": "Vuong",
+            "startIndex": 1173,
+            "endIndex": 1177
+          },
+          {
+            "id": "token_0_1024_1294_1179_1340",
+            "startX": 1024,
+            "startY": 1294,
+            "endX": 1179,
+            "endY": 1340,
+            "text": "(NMLSR",
+            "startIndex": 1179,
+            "endIndex": 1184
+          },
+          {
+            "id": "token_0_765_1339_936_1387",
+            "startX": 765,
+            "startY": 1339,
+            "endX": 936,
+            "endY": 1387,
+            "text": "1787403)",
+            "startIndex": 1283,
+            "endIndex": 1290
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_5_2",
+        "headerId": "3",
+        "rowNumber": 5,
+        "columnNumber": 2,
+        "value": "Application Signed",
+        "valueObject": null,
+        "startX": 1235,
+        "startY": 1289,
+        "endX": 1745,
+        "endY": 1393,
+        "tokens": [
+          {
+            "id": "token_0_1292_1316_1512_1366",
+            "startX": 1292,
+            "startY": 1316,
+            "endX": 1512,
+            "endY": 1366,
+            "text": "Application",
+            "startIndex": 1199,
+            "endIndex": 1209
+          },
+          {
+            "id": "token_0_1525_1316_1666_1366",
+            "startX": 1525,
+            "startY": 1316,
+            "endX": 1666,
+            "endY": 1366,
+            "text": "Signed",
+            "startIndex": 1211,
+            "endIndex": 1216
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "4_5_3",
+        "headerId": "4",
+        "rowNumber": 5,
+        "columnNumber": 3,
+        "value": "11/02/2025 (borrowers) / 11/03/2025 (LO)",
+        "valueObject": null,
+        "startX": 1745,
+        "startY": 1289,
+        "endX": 2337,
+        "endY": 1393,
+        "tokens": [
+          {
+            "id": "token_0_1829_1291_2026_1336",
+            "startX": 1829,
+            "startY": 1291,
+            "endX": 2026,
+            "endY": 1336,
+            "text": "11/02/2025",
+            "startIndex": 1226,
+            "endIndex": 1235
+          },
+          {
+            "id": "token_0_2037_1293_2260_1343",
+            "startX": 2037,
+            "startY": 1293,
+            "endX": 2260,
+            "endY": 1343,
+            "text": "(borrowers)",
+            "startIndex": 1237,
+            "endIndex": 1247
+          },
+          {
+            "id": "token_0_2272_1297_2287_1344",
+            "startX": 2272,
+            "startY": 1297,
+            "endX": 2287,
+            "endY": 1344,
+            "text": "/",
+            "startIndex": 1249,
+            "endIndex": 1249
+          },
+          {
+            "id": "token_0_1829_1341_2026_1387",
+            "startX": 1829,
+            "startY": 1341,
+            "endX": 2026,
+            "endY": 1387,
+            "text": "11/03/2025",
+            "startIndex": 1342,
+            "endIndex": 1351
+          },
+          {
+            "id": "token_0_2035_1340_2122_1390",
+            "startX": 2035,
+            "startY": 1340,
+            "endX": 2122,
+            "endY": 1390,
+            "text": "(LO)",
+            "startIndex": 1353,
+            "endIndex": 1356
+          }
+        ],
+        "pageNumber": 4,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ]
+  ],
+  "fieldExtractionRawOutputId": "7d4cca14-550a-11f1-95d9-a65ccfb099c7",
+  "isCorrected": false,
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "bBoxExtractionRequestId": null,
+  "createdDate": {
+    "$date": "2026-05-21T11:44:56.546Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-05-21T11:45:02.271Z"
+  },
+  "extractionFieldId": "ed03fde7-d61f-4093-bcec-243b9e53d028"
+},
+{
+  "_id": "7d502d94-550a-11f1-95d9-a65ccfb099c7",
+  "pageNumber": 1,
+  "startX": 209,
+  "startY": 1960,
+  "endX": 2341,
+  "endY": 2496,
+  "rowCount": 10,
+  "columnCount": 2,
+  "isHeaderMarked": false,
+  "isHeaderAdded": false,
+  "confidence": 0.9990301728248596,
+  "values": [
+    [
+      {
+        "id": "1_0_0",
+        "headerId": "1",
+        "rowNumber": 0,
+        "columnNumber": 0,
+        "value": "Role / Borrower Type",
+        "valueObject": null,
+        "startX": 209,
+        "startY": 1960,
+        "endX": 1018,
+        "endY": 2036,
+        "tokens": [
+          {
+            "id": "token_0_229_1990_317_2031",
+            "startX": 229,
+            "startY": 1990,
+            "endX": 317,
+            "endY": 2031,
+            "text": "Role",
+            "startIndex": 1855,
+            "endIndex": 1858
+          },
+          {
+            "id": "token_0_325_1992_343_2032",
+            "startX": 325,
+            "startY": 1992,
+            "endX": 343,
+            "endY": 2032,
+            "text": "/",
+            "startIndex": 1860,
+            "endIndex": 1860
+          },
+          {
+            "id": "token_0_351_1992_539_2035",
+            "startX": 351,
+            "startY": 1992,
+            "endX": 539,
+            "endY": 2035,
+            "text": "Borrower",
+            "startIndex": 1862,
+            "endIndex": 1869
+          },
+          {
+            "id": "token_0_547_1995_641_2036",
+            "startX": 547,
+            "startY": 1995,
+            "endX": 641,
+            "endY": 2036,
+            "text": "Type",
+            "startIndex": 1871,
+            "endIndex": 1874
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": true,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "1_0_1",
+        "headerId": "2",
+        "rowNumber": 0,
+        "columnNumber": 1,
+        "value": "Primary Borrower",
+        "valueObject": null,
+        "startX": 1018,
+        "startY": 1960,
+        "endX": 2341,
+        "endY": 2036,
+        "tokens": [
+          {
+            "id": "token_0_1295_1992_1449_2034",
+            "startX": 1295,
+            "startY": 1992,
+            "endX": 1449,
+            "endY": 2034,
+            "text": "Primary",
+            "startIndex": 1918,
+            "endIndex": 1924
+          },
+          {
+            "id": "token_0_1458_1992_1647_2033",
+            "startX": 1458,
+            "startY": 1992,
+            "endX": 1647,
+            "endY": 2033,
+            "text": "Borrower",
+            "startIndex": 1926,
+            "endIndex": 1933
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": true,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "1_1_0",
+        "headerId": "1",
+        "rowNumber": 1,
+        "columnNumber": 0,
+        "value": "Date of Birth",
+        "valueObject": null,
+        "startX": 209,
+        "startY": 2036,
+        "endX": 1018,
+        "endY": 2083,
+        "tokens": [
+          {
+            "id": "token_0_232_2044_318_2083",
+            "startX": 232,
+            "startY": 2044,
+            "endX": 318,
+            "endY": 2083,
+            "text": "Date",
+            "startIndex": 1936,
+            "endIndex": 1939
+          },
+          {
+            "id": "token_0_327_2044_370_2083",
+            "startX": 327,
+            "startY": 2044,
+            "endX": 370,
+            "endY": 2083,
+            "text": "of",
+            "startIndex": 1941,
+            "endIndex": 1942
+          },
+          {
+            "id": "token_0_379_2043_473_2082",
+            "startX": 379,
+            "startY": 2043,
+            "endX": 473,
+            "endY": 2082,
+            "text": "Birth",
+            "startIndex": 1944,
+            "endIndex": 1948
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "1_1_1",
+        "headerId": "2",
+        "rowNumber": 1,
+        "columnNumber": 1,
+        "value": "11/11/1998",
+        "valueObject": null,
+        "startX": 1018,
+        "startY": 2036,
+        "endX": 2341,
+        "endY": 2083,
+        "tokens": [
+          {
+            "id": "token_0_1301_2042_1497_2081",
+            "startX": 1301,
+            "startY": 2042,
+            "endX": 1497,
+            "endY": 2081,
+            "text": "11/11/1998",
+            "startIndex": 1999,
+            "endIndex": 2008
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "1_2_0",
+        "headerId": "1",
+        "rowNumber": 2,
+        "columnNumber": 0,
+        "value": "SSN (masked)",
+        "valueObject": null,
+        "startX": 209,
+        "startY": 2083,
+        "endX": 1018,
+        "endY": 2135,
+        "tokens": [
+          {
+            "id": "token_0_232_2094_306_2134",
+            "startX": 232,
+            "startY": 2094,
+            "endX": 306,
+            "endY": 2134,
+            "text": "SSN",
+            "startIndex": 2011,
+            "endIndex": 2013
+          },
+          {
+            "id": "token_0_323_2095_515_2135",
+            "startX": 323,
+            "startY": 2095,
+            "endX": 515,
+            "endY": 2135,
+            "text": "(masked)",
+            "startIndex": 2015,
+            "endIndex": 2022
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "1_2_1",
+        "headerId": "2",
+        "rowNumber": 2,
+        "columnNumber": 1,
+        "value": "XXX-XX-9605",
+        "valueObject": null,
+        "startX": 1018,
+        "startY": 2083,
+        "endX": 2341,
+        "endY": 2135,
+        "tokens": [
+          {
+            "id": "token_0_1296_2092_1552_2133",
+            "startX": 1296,
+            "startY": 2092,
+            "endX": 1552,
+            "endY": 2133,
+            "text": "XXX-XX-9605",
+            "startIndex": 2074,
+            "endIndex": 2084
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "1_3_0",
+        "headerId": "1",
+        "rowNumber": 3,
+        "columnNumber": 0,
+        "value": "Citizenship",
+        "valueObject": null,
+        "startX": 209,
+        "startY": 2135,
+        "endX": 1018,
+        "endY": 2185,
+        "tokens": [
+          {
+            "id": "token_0_232_2144_446_2184",
+            "startX": 232,
+            "startY": 2144,
+            "endX": 446,
+            "endY": 2184,
+            "text": "Citizenship",
+            "startIndex": 2087,
+            "endIndex": 2097
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "1_3_1",
+        "headerId": "2",
+        "rowNumber": 3,
+        "columnNumber": 1,
+        "value": "U.S. Citizen",
+        "valueObject": null,
+        "startX": 1018,
+        "startY": 2135,
+        "endX": 2341,
+        "endY": 2185,
+        "tokens": [
+          {
+            "id": "token_0_1305_2142_1376_2185",
+            "startX": 1305,
+            "startY": 2142,
+            "endX": 1376,
+            "endY": 2185,
+            "text": "U.S.",
+            "startIndex": 2150,
+            "endIndex": 2153
+          },
+          {
+            "id": "token_0_1387_2141_1519_2184",
+            "startX": 1387,
+            "startY": 2141,
+            "endX": 1519,
+            "endY": 2184,
+            "text": "Citizen",
+            "startIndex": 2155,
+            "endIndex": 2161
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "1_4_0",
+        "headerId": "1",
+        "rowNumber": 4,
+        "columnNumber": 0,
+        "value": "Marital Status",
+        "valueObject": null,
+        "startX": 209,
+        "startY": 2185,
+        "endX": 1018,
+        "endY": 2236,
+        "tokens": [
+          {
+            "id": "token_0_230_2194_363_2235",
+            "startX": 230,
+            "startY": 2194,
+            "endX": 363,
+            "endY": 2235,
+            "text": "Marital",
+            "startIndex": 2164,
+            "endIndex": 2170
+          },
+          {
+            "id": "token_0_373_2191_500_2236",
+            "startX": 373,
+            "startY": 2191,
+            "endX": 500,
+            "endY": 2236,
+            "text": "Status",
+            "startIndex": 2172,
+            "endIndex": 2177
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "1_4_1",
+        "headerId": "2",
+        "rowNumber": 4,
+        "columnNumber": 1,
+        "value": "Married",
+        "valueObject": null,
+        "startX": 1018,
+        "startY": 2185,
+        "endX": 2341,
+        "endY": 2236,
+        "tokens": [
+          {
+            "id": "token_0_1304_2193_1444_2236",
+            "startX": 1304,
+            "startY": 2193,
+            "endX": 1444,
+            "endY": 2236,
+            "text": "Married",
+            "startIndex": 2227,
+            "endIndex": 2233
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "1_5_0",
+        "headerId": "1",
+        "rowNumber": 5,
+        "columnNumber": 0,
+        "value": "Email",
+        "valueObject": null,
+        "startX": 209,
+        "startY": 2236,
+        "endX": 1018,
+        "endY": 2287,
+        "tokens": [
+          {
+            "id": "token_0_232_2245_352_2283",
+            "startX": 232,
+            "startY": 2245,
+            "endX": 352,
+            "endY": 2283,
+            "text": "Email",
+            "startIndex": 2237,
+            "endIndex": 2241
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "1_5_1",
+        "headerId": "2",
+        "rowNumber": 5,
+        "columnNumber": 1,
+        "value": "kaylaealysw@gmail.com",
+        "valueObject": null,
+        "startX": 1018,
+        "startY": 2236,
+        "endX": 2341,
+        "endY": 2287,
+        "tokens": [
+          {
+            "id": "token_0_1299_2242_1761_2287",
+            "startX": 1299,
+            "startY": 2242,
+            "endX": 1761,
+            "endY": 2287,
+            "text": "kaylaealysw@gmail.com",
+            "startIndex": 2299,
+            "endIndex": 2319
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "1_6_0",
+        "headerId": "1",
+        "rowNumber": 6,
+        "columnNumber": 0,
+        "value": "Phone",
+        "valueObject": null,
+        "startX": 209,
+        "startY": 2287,
+        "endX": 1018,
+        "endY": 2337,
+        "tokens": [
+          {
+            "id": "token_0_229_2297_354_2336",
+            "startX": 229,
+            "startY": 2297,
+            "endX": 354,
+            "endY": 2336,
+            "text": "Phone",
+            "startIndex": 2322,
+            "endIndex": 2326
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "1_6_1",
+        "headerId": "2",
+        "rowNumber": 6,
+        "columnNumber": 1,
+        "value": "(208) 819-3669",
+        "valueObject": null,
+        "startX": 1018,
+        "startY": 2287,
+        "endX": 2341,
+        "endY": 2337,
+        "tokens": [
+          {
+            "id": "token_0_1299_2295_1394_2337",
+            "startX": 1299,
+            "startY": 2295,
+            "endX": 1394,
+            "endY": 2337,
+            "text": "(208)",
+            "startIndex": 2386,
+            "endIndex": 2390
+          },
+          {
+            "id": "token_0_1403_2293_1578_2335",
+            "startX": 1403,
+            "startY": 2293,
+            "endX": 1578,
+            "endY": 2335,
+            "text": "819-3669",
+            "startIndex": 2392,
+            "endIndex": 2399
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "1_7_0",
+        "headerId": "1",
+        "rowNumber": 7,
+        "columnNumber": 0,
+        "value": "Current Address",
+        "valueObject": null,
+        "startX": 209,
+        "startY": 2337,
+        "endX": 1018,
+        "endY": 2390,
+        "tokens": [
+          {
+            "id": "token_0_230_2348_378_2387",
+            "startX": 230,
+            "startY": 2348,
+            "endX": 378,
+            "endY": 2387,
+            "text": "Current",
+            "startIndex": 2402,
+            "endIndex": 2408
+          },
+          {
+            "id": "token_0_387_2344_551_2386",
+            "startX": 387,
+            "startY": 2344,
+            "endX": 551,
+            "endY": 2386,
+            "text": "Address",
+            "startIndex": 2410,
+            "endIndex": 2416
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "1_7_1",
+        "headerId": "2",
+        "rowNumber": 7,
+        "columnNumber": 1,
+        "value": "506 W Stonington Ct, Coeur D Alene, ID 83815",
+        "valueObject": null,
+        "startX": 1018,
+        "startY": 2337,
+        "endX": 2341,
+        "endY": 2390,
+        "tokens": [
+          {
+            "id": "token_0_1301_2343_1363_2386",
+            "startX": 1301,
+            "startY": 2343,
+            "endX": 1363,
+            "endY": 2386,
+            "text": "506",
+            "startIndex": 2465,
+            "endIndex": 2467
+          },
+          {
+            "id": "token_0_1373_2343_1398_2386",
+            "startX": 1373,
+            "startY": 2343,
+            "endX": 1398,
+            "endY": 2386,
+            "text": "W",
+            "startIndex": 2469,
+            "endIndex": 2469
+          },
+          {
+            "id": "token_0_1423_2343_1640_2390",
+            "startX": 1423,
+            "startY": 2343,
+            "endX": 1640,
+            "endY": 2390,
+            "text": "Stonington",
+            "startIndex": 2471,
+            "endIndex": 2480
+          },
+          {
+            "id": "token_0_1653_2343_1710_2390",
+            "startX": 1653,
+            "startY": 2343,
+            "endX": 1710,
+            "endY": 2390,
+            "text": "Ct,",
+            "startIndex": 2482,
+            "endIndex": 2484
+          },
+          {
+            "id": "token_0_1719_2343_1838_2390",
+            "startX": 1719,
+            "startY": 2343,
+            "endX": 1838,
+            "endY": 2390,
+            "text": "Coeur",
+            "startIndex": 2486,
+            "endIndex": 2490
+          },
+          {
+            "id": "token_0_1848_2343_1873_2390",
+            "startX": 1848,
+            "startY": 2343,
+            "endX": 1873,
+            "endY": 2390,
+            "text": "D",
+            "startIndex": 2492,
+            "endIndex": 2492
+          },
+          {
+            "id": "token_0_1886_2343_2012_2390",
+            "startX": 1886,
+            "startY": 2343,
+            "endX": 2012,
+            "endY": 2390,
+            "text": "Alene,",
+            "startIndex": 2494,
+            "endIndex": 2499
+          },
+          {
+            "id": "token_0_2021_2343_2062_2390",
+            "startX": 2021,
+            "startY": 2343,
+            "endX": 2062,
+            "endY": 2390,
+            "text": "ID",
+            "startIndex": 2501,
+            "endIndex": 2502
+          },
+          {
+            "id": "token_0_2075_2343_2193_2388",
+            "startX": 2075,
+            "startY": 2343,
+            "endX": 2193,
+            "endY": 2388,
+            "text": "83815",
+            "startIndex": 2504,
+            "endIndex": 2508
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "1_8_0",
+        "headerId": "1",
+        "rowNumber": 8,
+        "columnNumber": 0,
+        "value": "Residency Duration",
+        "valueObject": null,
+        "startX": 209,
+        "startY": 2390,
+        "endX": 1018,
+        "endY": 2438,
+        "tokens": [
+          {
+            "id": "token_0_229_2394_434_2438",
+            "startX": 229,
+            "startY": 2394,
+            "endX": 434,
+            "endY": 2438,
+            "text": "Residency",
+            "startIndex": 2511,
+            "endIndex": 2519
+          },
+          {
+            "id": "token_0_444_2395_613_2438",
+            "startX": 444,
+            "startY": 2395,
+            "endX": 613,
+            "endY": 2438,
+            "text": "Duration",
+            "startIndex": 2521,
+            "endIndex": 2528
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "1_8_1",
+        "headerId": "2",
+        "rowNumber": 8,
+        "columnNumber": 1,
+        "value": "4 Years, 5 Months",
+        "valueObject": null,
+        "startX": 1018,
+        "startY": 2390,
+        "endX": 2341,
+        "endY": 2438,
+        "tokens": [
+          {
+            "id": "token_0_1303_2396_1321_2436",
+            "startX": 1303,
+            "startY": 2396,
+            "endX": 1321,
+            "endY": 2436,
+            "text": "4",
+            "startIndex": 2575,
+            "endIndex": 2575
+          },
+          {
+            "id": "token_0_1332_2395_1453_2437",
+            "startX": 1332,
+            "startY": 2395,
+            "endX": 1453,
+            "endY": 2437,
+            "text": "Years,",
+            "startIndex": 2577,
+            "endIndex": 2582
+          },
+          {
+            "id": "token_0_1464_2394_1485_2437",
+            "startX": 1464,
+            "startY": 2394,
+            "endX": 1485,
+            "endY": 2437,
+            "text": "5",
+            "startIndex": 2584,
+            "endIndex": 2584
+          },
+          {
+            "id": "token_0_1497_2395_1641_2435",
+            "startX": 1497,
+            "startY": 2395,
+            "endX": 1641,
+            "endY": 2435,
+            "text": "Months",
+            "startIndex": 2586,
+            "endIndex": 2591
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ],
+    [
+      {
+        "id": "1_9_0",
+        "headerId": "1",
+        "rowNumber": 9,
+        "columnNumber": 0,
+        "value": "Monthly Housing Expense",
+        "valueObject": null,
+        "startX": 209,
+        "startY": 2438,
+        "endX": 1018,
+        "endY": 2496,
+        "tokens": [
+          {
+            "id": "token_0_226_2444_386_2491",
+            "startX": 226,
+            "startY": 2444,
+            "endX": 386,
+            "endY": 2491,
+            "text": "Monthly",
+            "startIndex": 2594,
+            "endIndex": 2600
+          },
+          {
+            "id": "token_0_395_2445_561_2490",
+            "startX": 395,
+            "startY": 2445,
+            "endX": 561,
+            "endY": 2490,
+            "text": "Housing",
+            "startIndex": 2602,
+            "endIndex": 2608
+          },
+          {
+            "id": "token_0_571_2446_742_2489",
+            "startX": 571,
+            "startY": 2446,
+            "endX": 742,
+            "endY": 2489,
+            "text": "Expense",
+            "startIndex": 2610,
+            "endIndex": 2616
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      },
+      {
+        "id": "1_9_1",
+        "headerId": "2",
+        "rowNumber": 9,
+        "columnNumber": 1,
+        "value": "$1,500.00/month (Rent)",
+        "valueObject": null,
+        "startX": 1018,
+        "startY": 2438,
+        "endX": 2341,
+        "endY": 2496,
+        "tokens": [
+          {
+            "id": "token_0_1300_2442_1615_2489",
+            "startX": 1300,
+            "startY": 2442,
+            "endX": 1615,
+            "endY": 2489,
+            "text": "$1,500.00/month",
+            "startIndex": 2658,
+            "endIndex": 2672
+          },
+          {
+            "id": "token_0_1626_2445_1745_2489",
+            "startX": 1626,
+            "startY": 2445,
+            "endX": 1745,
+            "endY": 2489,
+            "text": "(Rent)",
+            "startIndex": 2674,
+            "endIndex": 2679
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1
+      }
+    ]
+  ],
+  "fieldExtractionRawOutputId": "7d4f6918-550a-11f1-95d9-a65ccfb099c7",
+  "isCorrected": false,
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "bBoxExtractionRequestId": null,
+  "createdDate": {
+    "$date": "2026-05-21T11:44:56.563Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-05-21T11:45:02.273Z"
+  },
+  "extractionFieldId": "6d5aff97-7126-434d-b578-3deb115f65eb",
+  "subExtractionCollateralParent": "a50d8ed3-5862-4b0b-b46c-f9e3b4ab3ab8"
+},
+{
+  "_id": "a50d8ed3-5862-4b0b-b46c-f9e3b4ab3ab8",
+  "fieldType": "Object List",
+  "pageNumber": 1,
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "extractionFieldId": "c170b9a4-7e55-4fca-8a2f-3d67374c5f78",
+  "confidence": 0.9,
+  "consumerId": "InfrrdUser:8651b864-1459-4e9e-903c-f43cec0f3e94,KongUsername:558f293e-010c-4f5b-8867-e76727c2f386",
+  "createdDate": {
+    "$date": "2026-05-21T11:45:03.042Z"
+  },
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "lastModifiedDate": {
+    "$date": "2026-05-21T11:45:03.042Z"
+  },
+  "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+  "regionId": "73d77f34-cc4d-40a9-b7a8-701d0b1be454",
+  "requestId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e",
+  "userModelId": "04bbd710-a25b-4b62-a477-5f802a997551",
+  "values": [
+    {
+      "name": "BORROWER",
+      "value": "Kayla M Ealy",
+      "pageNumber": 1,
+      "confidence": 0.9,
+      "startIndex": 0,
+      "endIndex": 0,
+      "type": "Single Value",
+      "fieldType": "Single Value",
+      "dataType": "string",
+      "extractedUsing": "",
+      "wordCoordinates": [
+        {
+          "statIndex": 690,
+          "endIndex": 694,
+          "startX": 1654,
+          "endX": 1761,
+          "startY": 895,
+          "endY": 939,
+          "value": "Kayla",
+          "id": "token_0_1654_895_1761_939"
+        },
+        {
+          "statIndex": 696,
+          "endIndex": 696,
+          "startX": 1771,
+          "endX": 1795,
+          "startY": 894,
+          "endY": 940,
+          "value": "M",
+          "id": "token_0_1771_894_1795_940"
+        },
+        {
+          "statIndex": 698,
+          "endIndex": 701,
+          "startX": 1818,
+          "endX": 1907,
+          "startY": 895,
+          "endY": 942,
+          "value": "Ealy",
+          "id": "token_0_1818_895_1907_942"
+        }
+      ],
+      "fieldId": "f97adbbf-faa4-472c-a4a9-7ef46236cb13",
+      "question": null,
+      "parentId": null,
+      "mergeConfig": null,
+      "additionalAttributes": {}
+    },
+    {
+      "name": "PERSONAL INFORMATION",
+      "value": "",
+      "pageNumber": 0,
+      "confidence": 0,
+      "startIndex": 0,
+      "endIndex": 0,
+      "type": "Generic Table",
+      "fieldType": "Generic Table",
+      "dataType": "table",
+      "extractedUsing": "",
+      "wordCoordinates": [],
+      "fieldId": "0119f992-63cc-4a6d-9e90-dcf1f6ceab29",
+      "question": null,
+      "parentId": null,
+      "mergeConfig": null,
+      "additionalAttributes": {
+        "isLLMConfigured": false
+      }
+    }
+  ]
+},
+{
+  "_id": "6144d5da-6797-43c4-9b39-b6a23ba6c322",
+  "extractionFieldId": "c170b9a4-7e55-4fca-8a2f-3d67374c5f78",
+  "isCorrected": true,
+  "confidence": 1,
+  "pageNumber": 1,
+  "objectId": "e29f8453-3bc2-4ed9-b619-abba923f16b9",
+  "values": [
+    {
+      "value": "Kayla M Ealy",
+      "confidence": 1,
+      "wordInfoList": [
+        {
+          "id": "token_0_1654_895_1761_939",
+          "value": "Kayla",
+          "startX": 1654,
+          "startY": 895,
+          "endX": 1761,
+          "endY": 939,
+          "endIndex": 694
+        },
+        {
+          "id": "token_0_1771_894_1795_940",
+          "value": "M",
+          "startX": 1771,
+          "startY": 894,
+          "endX": 1795,
+          "endY": 940,
+          "endIndex": 696
+        },
+        {
+          "id": "token_0_1818_895_1907_942",
+          "value": "Ealy",
+          "startX": 1818,
+          "startY": 895,
+          "endX": 1907,
+          "endY": 942,
+          "endIndex": 701
+        }
+      ],
+      "fieldName": "BORROWER",
+      "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+      "fieldId": "f97adbbf-faa4-472c-a4a9-7ef46236cb13",
+      "displayName": "BORROWER",
+      "fieldType": "Single Value",
+      "dataType": "string",
+      "additionalAttributes": {},
+      "pageNumber": 1,
+      "startIndex": 0,
+      "endIndex": 0,
+      "position": 1,
+      "confidanceStyle": "green",
+      "originalValues": {
+        "value": "Kayla M Ealy",
+        "confidence": 0.9,
+        "wordInfoList": [
+          {
+            "id": "token_0_1654_895_1761_939",
+            "value": "Kayla",
+            "startX": 1654,
+            "startY": 895,
+            "endX": 1761,
+            "endY": 939,
+            "endIndex": 694
+          },
+          {
+            "id": "token_0_1771_894_1795_940",
+            "value": "M",
+            "startX": 1771,
+            "startY": 894,
+            "endX": 1795,
+            "endY": 940,
+            "endIndex": 696
+          },
+          {
+            "id": "token_0_1818_895_1907_942",
+            "value": "Ealy",
+            "startX": 1818,
+            "startY": 895,
+            "endX": 1907,
+            "endY": 942,
+            "endIndex": 701
+          }
+        ],
+        "fieldName": "BORROWER",
+        "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+        "fieldId": "f97adbbf-faa4-472c-a4a9-7ef46236cb13",
+        "displayName": "BORROWER",
+        "fieldType": "Single Value",
+        "dataType": "string",
+        "additionalAttributes": {},
+        "pageNumber": 1,
+        "startIndex": 0,
+        "endIndex": 0,
+        "position": 1,
+        "confidanceStyle": "green"
+      },
+      "type": "Single Value",
+      "initialValues": [
+        ""
+      ],
+      "order": 1,
+      "configuration": {
+        "type": "text"
+      },
+      "correctedValue": [],
+      "correctedValueWordInfoList": [],
+      "isMultiValueField": true,
+      "extractionFieldId": "c170b9a4-7e55-4fca-8a2f-3d67374c5f78",
+      "initialValue": "Kayla M Ealy",
+      "show": true,
+      "hidden": false,
+      "disable": false,
+      "tabStatus": "ADDED",
+      "isCorrected": false
+    },
+    {
+      "id": "6d5aff97-7126-434d-b578-3deb115f65eb",
+      "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+      "fieldId": "0119f992-63cc-4a6d-9e90-dcf1f6ceab29",
+      "fieldName": "PERSONAL INFORMATION",
+      "fieldType": "Generic Table",
+      "columnCount": 2,
+      "headers": [
+        {
+          "id": "1",
+          "name": "Role / Borrower Type",
+          "dataType": "string",
+          "tokenType": "multi_token_multi_line"
+        },
+        {
+          "id": "2",
+          "name": "Primary Borrower",
+          "dataType": "string",
+          "tokenType": "multi_token_multi_line"
+        }
+      ],
+      "isHeaderAdded": false,
+      "isHeaderMarked": false,
+      "extractionTableType": "headers",
+      "availablePages": [
+        1
+      ],
+      "totalRowCount": 10,
+      "isCorrected": true,
+      "confidence": 1
+    }
+  ],
+  "fieldType": "Object List",
+  "taggedStatus": "ADD",
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "createdDate": {
+    "$date": "2026-06-09T07:29:03.051Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-06-09T07:29:03.051Z"
+  }
+},
+{
+  "_id": "dcb83b71-c5cc-4b95-b7e9-b3a6c207785c",
+  "extractionFieldId": "c170b9a4-7e55-4fca-8a2f-3d67374c5f78",
+  "isCorrected": true,
+  "confidence": 1,
+  "pageNumber": 1,
+  "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+  "values": [
+    {
+      "value": "Kayla M Ealy test",
+      "confidence": 0.9,
+      "wordInfoList": [
+        {
+          "id": "token_0_1654_895_1761_939",
+          "value": "Kayla",
+          "startX": 1654,
+          "startY": 895,
+          "endX": 1761,
+          "endY": 939,
+          "endIndex": 694
+        },
+        {
+          "id": "token_0_1771_894_1795_940",
+          "value": "M",
+          "startX": 1771,
+          "startY": 894,
+          "endX": 1795,
+          "endY": 940,
+          "endIndex": 696
+        },
+        {
+          "id": "token_0_1818_895_1907_942",
+          "value": "Ealy",
+          "startX": 1818,
+          "startY": 895,
+          "endX": 1907,
+          "endY": 942,
+          "endIndex": 701
+        }
+      ],
+      "fieldName": "BORROWER",
+      "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+      "fieldId": "f97adbbf-faa4-472c-a4a9-7ef46236cb13",
+      "displayName": "BORROWER",
+      "fieldType": "Single Value",
+      "dataType": "string",
+      "additionalAttributes": {},
+      "pageNumber": 1,
+      "startIndex": 0,
+      "endIndex": 0,
+      "position": 1,
+      "confidanceStyle": "green",
+      "originalValues": {
+        "value": "Kayla M Ealy",
+        "confidence": 0.9,
+        "wordInfoList": [
+          {
+            "id": "token_0_1654_895_1761_939",
+            "value": "Kayla",
+            "startX": 1654,
+            "startY": 895,
+            "endX": 1761,
+            "endY": 939,
+            "endIndex": 694
+          },
+          {
+            "id": "token_0_1771_894_1795_940",
+            "value": "M",
+            "startX": 1771,
+            "startY": 894,
+            "endX": 1795,
+            "endY": 940,
+            "endIndex": 696
+          },
+          {
+            "id": "token_0_1818_895_1907_942",
+            "value": "Ealy",
+            "startX": 1818,
+            "startY": 895,
+            "endX": 1907,
+            "endY": 942,
+            "endIndex": 701
+          }
+        ],
+        "fieldName": "BORROWER",
+        "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+        "fieldId": "f97adbbf-faa4-472c-a4a9-7ef46236cb13",
+        "displayName": "BORROWER",
+        "fieldType": "Single Value",
+        "dataType": "string",
+        "additionalAttributes": {},
+        "pageNumber": 1,
+        "startIndex": 0,
+        "endIndex": 0,
+        "position": 1,
+        "confidanceStyle": "green"
+      },
+      "type": "Single Value",
+      "initialValues": [
+        "Kayla M Ealy"
+      ],
+      "configuration": {
+        "type": "text"
+      },
+      "correctedValue": [],
+      "correctedValueWordInfoList": [],
+      "isMultiValueField": true,
+      "extractionFieldId": "c170b9a4-7e55-4fca-8a2f-3d67374c5f78",
+      "initialValue": "Kayla M Ealy",
+      "show": true,
+      "hidden": false,
+      "disable": false,
+      "isRefreshRequired": true,
+      "isCorrected": true,
+      "editQuestion": false
+    },
+    {
+      "id": "6d5aff97-7126-434d-b578-3deb115f65eb",
+      "objectId": "95d166ef-a78e-4e8d-93ef-aa5412888d5f",
+      "fieldId": "0119f992-63cc-4a6d-9e90-dcf1f6ceab29",
+      "fieldName": "PERSONAL INFORMATION",
+      "fieldType": "Generic Table",
+      "columnCount": 2,
+      "headers": [
+        {
+          "id": "1",
+          "name": "Role / Borrower Type",
+          "dataType": "string",
+          "tokenType": "multi_token_multi_line"
+        },
+        {
+          "id": "2",
+          "name": "Primary Borrower",
+          "dataType": "string",
+          "tokenType": "multi_token_multi_line"
+        }
+      ],
+      "isHeaderAdded": false,
+      "isHeaderMarked": false,
+      "extractionTableType": "headers",
+      "availablePages": [
+        1
+      ],
+      "totalRowCount": 10,
+      "isCorrected": false
+    }
+  ],
+  "fieldType": "Object List",
+  "taggedStatus": "TAGGED",
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "lastModifiedDate": {
+    "$date": "2026-06-09T07:29:03.053Z"
+  }
+},
+{
+  "_id": "da93dbe9-1128-4fb5-9d12-a3191467f767",
+  "fieldExtractionRawOutputId": "7d4f6918-550a-11f1-95d9-a65ccfb099c7",
+  "extractionFieldId": "6d5aff97-7126-434d-b578-3deb115f65eb",
+  "isCorrected": true,
+  "columnCount": 2,
+  "confidence": 0.9990301728248596,
+  "endX": 2341,
+  "endY": 2496,
+  "isHeaderAdded": false,
+  "isHeaderMarked": false,
+  "pageNumber": 1,
+  "rowCount": 10,
+  "startX": 209,
+  "startY": 1960,
+  "subExtractionCollateralParent": "dcb83b71-c5cc-4b95-b7e9-b3a6c207785c",
+  "values": [
+    [
+      {
+        "id": "1_0_0",
+        "headerId": "1",
+        "rowNumber": 0,
+        "columnNumber": 0,
+        "value": "Role / Borrower Type",
+        "startX": 209,
+        "startY": 1960,
+        "endX": 1018,
+        "endY": 2036,
+        "tokens": [
+          {
+            "id": "token_0_229_1990_317_2031",
+            "startX": 229,
+            "startY": 1990,
+            "endX": 317,
+            "endY": 2031,
+            "text": "Role",
+            "startIndex": 1855,
+            "endIndex": 1858
+          },
+          {
+            "id": "token_0_325_1992_343_2032",
+            "startX": 325,
+            "startY": 1992,
+            "endX": 343,
+            "endY": 2032,
+            "text": "/",
+            "startIndex": 1860,
+            "endIndex": 1860
+          },
+          {
+            "id": "token_0_351_1992_539_2035",
+            "startX": 351,
+            "startY": 1992,
+            "endX": 539,
+            "endY": 2035,
+            "text": "Borrower",
+            "startIndex": 1862,
+            "endIndex": 1869
+          },
+          {
+            "id": "token_0_547_1995_641_2036",
+            "startX": 547,
+            "startY": 1995,
+            "endX": 641,
+            "endY": 2036,
+            "text": "Type",
+            "startIndex": 1871,
+            "endIndex": 1874
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": true,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      },
+      {
+        "id": "1_0_1",
+        "headerId": "2",
+        "rowNumber": 0,
+        "columnNumber": 1,
+        "value": "Primary Borrower",
+        "startX": 1018,
+        "startY": 1960,
+        "endX": 2341,
+        "endY": 2036,
+        "tokens": [
+          {
+            "id": "token_0_1295_1992_1449_2034",
+            "startX": 1295,
+            "startY": 1992,
+            "endX": 1449,
+            "endY": 2034,
+            "text": "Primary",
+            "startIndex": 1918,
+            "endIndex": 1924
+          },
+          {
+            "id": "token_0_1458_1992_1647_2033",
+            "startX": 1458,
+            "startY": 1992,
+            "endX": 1647,
+            "endY": 2033,
+            "text": "Borrower",
+            "startIndex": 1926,
+            "endIndex": 1933
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": true,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      }
+    ],
+    [
+      {
+        "id": "1_1_0",
+        "headerId": "1",
+        "rowNumber": 1,
+        "columnNumber": 0,
+        "value": "Date of Birth col 2",
+        "startX": 209,
+        "startY": 2036,
+        "endX": 1018,
+        "endY": 2083,
+        "tokens": [
+          {
+            "id": "token_0_232_2044_318_2083",
+            "startX": 232,
+            "startY": 2044,
+            "endX": 318,
+            "endY": 2083,
+            "text": "Date",
+            "startIndex": 1936,
+            "endIndex": 1939
+          },
+          {
+            "id": "token_0_327_2044_370_2083",
+            "startX": 327,
+            "startY": 2044,
+            "endX": 370,
+            "endY": 2083,
+            "text": "of",
+            "startIndex": 1941,
+            "endIndex": 1942
+          },
+          {
+            "id": "token_0_379_2043_473_2082",
+            "startX": 379,
+            "startY": 2043,
+            "endX": 473,
+            "endY": 2082,
+            "text": "Birth",
+            "startIndex": 1944,
+            "endIndex": 1948
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": true,
+        "initialValue": "Date of Birth",
+        "cursorPosition": {
+          "selectionStart": 13,
+          "selectionEnd": 13
+        },
+        "isSelected": false,
+        "correctedBy": null,
+        "correctedUserName": "rohan",
+        "correctedUserEmail": "rohanrai+dev_csv@infrrd.ai",
+        "correctedOn": "2026-06-09T07:28:52.521Z"
+      },
+      {
+        "id": "1_1_1",
+        "headerId": "2",
+        "rowNumber": 1,
+        "columnNumber": 1,
+        "value": "11/11/1998",
+        "startX": 1018,
+        "startY": 2036,
+        "endX": 2341,
+        "endY": 2083,
+        "tokens": [
+          {
+            "id": "token_0_1301_2042_1497_2081",
+            "startX": 1301,
+            "startY": 2042,
+            "endX": 1497,
+            "endY": 2081,
+            "text": "11/11/1998",
+            "startIndex": 1999,
+            "endIndex": 2008
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      }
+    ],
+    [
+      {
+        "id": "1_2_0",
+        "headerId": "1",
+        "rowNumber": 2,
+        "columnNumber": 0,
+        "value": "SSN (masked)",
+        "startX": 209,
+        "startY": 2083,
+        "endX": 1018,
+        "endY": 2135,
+        "tokens": [
+          {
+            "id": "token_0_232_2094_306_2134",
+            "startX": 232,
+            "startY": 2094,
+            "endX": 306,
+            "endY": 2134,
+            "text": "SSN",
+            "startIndex": 2011,
+            "endIndex": 2013
+          },
+          {
+            "id": "token_0_323_2095_515_2135",
+            "startX": 323,
+            "startY": 2095,
+            "endX": 515,
+            "endY": 2135,
+            "text": "(masked)",
+            "startIndex": 2015,
+            "endIndex": 2022
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false,
+        "isSelected": false
+      },
+      {
+        "id": "1_2_1",
+        "headerId": "2",
+        "rowNumber": 2,
+        "columnNumber": 1,
+        "value": "XXX-XX-9605",
+        "startX": 1018,
+        "startY": 2083,
+        "endX": 2341,
+        "endY": 2135,
+        "tokens": [
+          {
+            "id": "token_0_1296_2092_1552_2133",
+            "startX": 1296,
+            "startY": 2092,
+            "endX": 1552,
+            "endY": 2133,
+            "text": "XXX-XX-9605",
+            "startIndex": 2074,
+            "endIndex": 2084
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      }
+    ],
+    [
+      {
+        "id": "1_3_0",
+        "headerId": "1",
+        "rowNumber": 3,
+        "columnNumber": 0,
+        "value": "Citizenship",
+        "startX": 209,
+        "startY": 2135,
+        "endX": 1018,
+        "endY": 2185,
+        "tokens": [
+          {
+            "id": "token_0_232_2144_446_2184",
+            "startX": 232,
+            "startY": 2144,
+            "endX": 446,
+            "endY": 2184,
+            "text": "Citizenship",
+            "startIndex": 2087,
+            "endIndex": 2097
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false,
+        "isSelected": false
+      },
+      {
+        "id": "1_3_1",
+        "headerId": "2",
+        "rowNumber": 3,
+        "columnNumber": 1,
+        "value": "U.S. Citizen",
+        "startX": 1018,
+        "startY": 2135,
+        "endX": 2341,
+        "endY": 2185,
+        "tokens": [
+          {
+            "id": "token_0_1305_2142_1376_2185",
+            "startX": 1305,
+            "startY": 2142,
+            "endX": 1376,
+            "endY": 2185,
+            "text": "U.S.",
+            "startIndex": 2150,
+            "endIndex": 2153
+          },
+          {
+            "id": "token_0_1387_2141_1519_2184",
+            "startX": 1387,
+            "startY": 2141,
+            "endX": 1519,
+            "endY": 2184,
+            "text": "Citizen",
+            "startIndex": 2155,
+            "endIndex": 2161
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      }
+    ],
+    [
+      {
+        "id": "1_4_0",
+        "headerId": "1",
+        "rowNumber": 4,
+        "columnNumber": 0,
+        "value": "Marital Status",
+        "startX": 209,
+        "startY": 2185,
+        "endX": 1018,
+        "endY": 2236,
+        "tokens": [
+          {
+            "id": "token_0_230_2194_363_2235",
+            "startX": 230,
+            "startY": 2194,
+            "endX": 363,
+            "endY": 2235,
+            "text": "Marital",
+            "startIndex": 2164,
+            "endIndex": 2170
+          },
+          {
+            "id": "token_0_373_2191_500_2236",
+            "startX": 373,
+            "startY": 2191,
+            "endX": 500,
+            "endY": 2236,
+            "text": "Status",
+            "startIndex": 2172,
+            "endIndex": 2177
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": true,
+        "isSelected": false,
+        "initialValue": "Marital Status",
+        "cursorPosition": {
+          "selectionStart": 14,
+          "selectionEnd": 14
+        },
+        "correctedBy": null,
+        "correctedUserName": "rohan",
+        "correctedUserEmail": "rohanrai+dev_csv@infrrd.ai",
+        "correctedOn": "2026-06-09T07:28:54.706Z"
+      },
+      {
+        "id": "1_4_1",
+        "headerId": "2",
+        "rowNumber": 4,
+        "columnNumber": 1,
+        "value": "Married",
+        "startX": 1018,
+        "startY": 2185,
+        "endX": 2341,
+        "endY": 2236,
+        "tokens": [
+          {
+            "id": "token_0_1304_2193_1444_2236",
+            "startX": 1304,
+            "startY": 2193,
+            "endX": 1444,
+            "endY": 2236,
+            "text": "Married",
+            "startIndex": 2227,
+            "endIndex": 2233
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      }
+    ],
+    [
+      {
+        "id": "1_5_0",
+        "headerId": "1",
+        "rowNumber": 5,
+        "columnNumber": 0,
+        "value": "Email",
+        "startX": 209,
+        "startY": 2236,
+        "endX": 1018,
+        "endY": 2287,
+        "tokens": [
+          {
+            "id": "token_0_232_2245_352_2283",
+            "startX": 232,
+            "startY": 2245,
+            "endX": 352,
+            "endY": 2283,
+            "text": "Email",
+            "startIndex": 2237,
+            "endIndex": 2241
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false,
+        "isSelected": false
+      },
+      {
+        "id": "1_5_1",
+        "headerId": "2",
+        "rowNumber": 5,
+        "columnNumber": 1,
+        "value": "kaylaealysw@gmail.com",
+        "startX": 1018,
+        "startY": 2236,
+        "endX": 2341,
+        "endY": 2287,
+        "tokens": [
+          {
+            "id": "token_0_1299_2242_1761_2287",
+            "startX": 1299,
+            "startY": 2242,
+            "endX": 1761,
+            "endY": 2287,
+            "text": "kaylaealysw@gmail.com",
+            "startIndex": 2299,
+            "endIndex": 2319
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      }
+    ],
+    [
+      {
+        "id": "1_6_0",
+        "headerId": "1",
+        "rowNumber": 6,
+        "columnNumber": 0,
+        "value": "Phone",
+        "startX": 209,
+        "startY": 2287,
+        "endX": 1018,
+        "endY": 2337,
+        "tokens": [
+          {
+            "id": "token_0_229_2297_354_2336",
+            "startX": 229,
+            "startY": 2297,
+            "endX": 354,
+            "endY": 2336,
+            "text": "Phone",
+            "startIndex": 2322,
+            "endIndex": 2326
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false,
+        "isSelected": false
+      },
+      {
+        "id": "1_6_1",
+        "headerId": "2",
+        "rowNumber": 6,
+        "columnNumber": 1,
+        "value": "(208) 819-3669",
+        "startX": 1018,
+        "startY": 2287,
+        "endX": 2341,
+        "endY": 2337,
+        "tokens": [
+          {
+            "id": "token_0_1299_2295_1394_2337",
+            "startX": 1299,
+            "startY": 2295,
+            "endX": 1394,
+            "endY": 2337,
+            "text": "(208)",
+            "startIndex": 2386,
+            "endIndex": 2390
+          },
+          {
+            "id": "token_0_1403_2293_1578_2335",
+            "startX": 1403,
+            "startY": 2293,
+            "endX": 1578,
+            "endY": 2335,
+            "text": "819-3669",
+            "startIndex": 2392,
+            "endIndex": 2399
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      }
+    ],
+    [
+      {
+        "id": "1_7_0",
+        "headerId": "1",
+        "rowNumber": 7,
+        "columnNumber": 0,
+        "value": "Current Address",
+        "startX": 209,
+        "startY": 2337,
+        "endX": 1018,
+        "endY": 2390,
+        "tokens": [
+          {
+            "id": "token_0_230_2348_378_2387",
+            "startX": 230,
+            "startY": 2348,
+            "endX": 378,
+            "endY": 2387,
+            "text": "Current",
+            "startIndex": 2402,
+            "endIndex": 2408
+          },
+          {
+            "id": "token_0_387_2344_551_2386",
+            "startX": 387,
+            "startY": 2344,
+            "endX": 551,
+            "endY": 2386,
+            "text": "Address",
+            "startIndex": 2410,
+            "endIndex": 2416
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false,
+        "isSelected": false
+      },
+      {
+        "id": "1_7_1",
+        "headerId": "2",
+        "rowNumber": 7,
+        "columnNumber": 1,
+        "value": "506 W Stonington Ct, Coeur D Alene, ID 83815",
+        "startX": 1018,
+        "startY": 2337,
+        "endX": 2341,
+        "endY": 2390,
+        "tokens": [
+          {
+            "id": "token_0_1301_2343_1363_2386",
+            "startX": 1301,
+            "startY": 2343,
+            "endX": 1363,
+            "endY": 2386,
+            "text": "506",
+            "startIndex": 2465,
+            "endIndex": 2467
+          },
+          {
+            "id": "token_0_1373_2343_1398_2386",
+            "startX": 1373,
+            "startY": 2343,
+            "endX": 1398,
+            "endY": 2386,
+            "text": "W",
+            "startIndex": 2469,
+            "endIndex": 2469
+          },
+          {
+            "id": "token_0_1423_2343_1640_2390",
+            "startX": 1423,
+            "startY": 2343,
+            "endX": 1640,
+            "endY": 2390,
+            "text": "Stonington",
+            "startIndex": 2471,
+            "endIndex": 2480
+          },
+          {
+            "id": "token_0_1653_2343_1710_2390",
+            "startX": 1653,
+            "startY": 2343,
+            "endX": 1710,
+            "endY": 2390,
+            "text": "Ct,",
+            "startIndex": 2482,
+            "endIndex": 2484
+          },
+          {
+            "id": "token_0_1719_2343_1838_2390",
+            "startX": 1719,
+            "startY": 2343,
+            "endX": 1838,
+            "endY": 2390,
+            "text": "Coeur",
+            "startIndex": 2486,
+            "endIndex": 2490
+          },
+          {
+            "id": "token_0_1848_2343_1873_2390",
+            "startX": 1848,
+            "startY": 2343,
+            "endX": 1873,
+            "endY": 2390,
+            "text": "D",
+            "startIndex": 2492,
+            "endIndex": 2492
+          },
+          {
+            "id": "token_0_1886_2343_2012_2390",
+            "startX": 1886,
+            "startY": 2343,
+            "endX": 2012,
+            "endY": 2390,
+            "text": "Alene,",
+            "startIndex": 2494,
+            "endIndex": 2499
+          },
+          {
+            "id": "token_0_2021_2343_2062_2390",
+            "startX": 2021,
+            "startY": 2343,
+            "endX": 2062,
+            "endY": 2390,
+            "text": "ID",
+            "startIndex": 2501,
+            "endIndex": 2502
+          },
+          {
+            "id": "token_0_2075_2343_2193_2388",
+            "startX": 2075,
+            "startY": 2343,
+            "endX": 2193,
+            "endY": 2388,
+            "text": "83815",
+            "startIndex": 2504,
+            "endIndex": 2508
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      }
+    ],
+    [
+      {
+        "id": "1_8_0",
+        "headerId": "1",
+        "rowNumber": 8,
+        "columnNumber": 0,
+        "value": "Residency Duration",
+        "startX": 209,
+        "startY": 2390,
+        "endX": 1018,
+        "endY": 2438,
+        "tokens": [
+          {
+            "id": "token_0_229_2394_434_2438",
+            "startX": 229,
+            "startY": 2394,
+            "endX": 434,
+            "endY": 2438,
+            "text": "Residency",
+            "startIndex": 2511,
+            "endIndex": 2519
+          },
+          {
+            "id": "token_0_444_2395_613_2438",
+            "startX": 444,
+            "startY": 2395,
+            "endX": 613,
+            "endY": 2438,
+            "text": "Duration",
+            "startIndex": 2521,
+            "endIndex": 2528
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false,
+        "isSelected": false
+      },
+      {
+        "id": "1_8_1",
+        "headerId": "2",
+        "rowNumber": 8,
+        "columnNumber": 1,
+        "value": "4 Years, 5 Months",
+        "startX": 1018,
+        "startY": 2390,
+        "endX": 2341,
+        "endY": 2438,
+        "tokens": [
+          {
+            "id": "token_0_1303_2396_1321_2436",
+            "startX": 1303,
+            "startY": 2396,
+            "endX": 1321,
+            "endY": 2436,
+            "text": "4",
+            "startIndex": 2575,
+            "endIndex": 2575
+          },
+          {
+            "id": "token_0_1332_2395_1453_2437",
+            "startX": 1332,
+            "startY": 2395,
+            "endX": 1453,
+            "endY": 2437,
+            "text": "Years,",
+            "startIndex": 2577,
+            "endIndex": 2582
+          },
+          {
+            "id": "token_0_1464_2394_1485_2437",
+            "startX": 1464,
+            "startY": 2394,
+            "endX": 1485,
+            "endY": 2437,
+            "text": "5",
+            "startIndex": 2584,
+            "endIndex": 2584
+          },
+          {
+            "id": "token_0_1497_2395_1641_2435",
+            "startX": 1497,
+            "startY": 2395,
+            "endX": 1641,
+            "endY": 2435,
+            "text": "Months",
+            "startIndex": 2586,
+            "endIndex": 2591
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      }
+    ],
+    [
+      {
+        "id": "1_9_0",
+        "headerId": "1",
+        "rowNumber": 9,
+        "columnNumber": 0,
+        "value": "Monthly Housing Expense",
+        "startX": 209,
+        "startY": 2438,
+        "endX": 1018,
+        "endY": 2496,
+        "tokens": [
+          {
+            "id": "token_0_226_2444_386_2491",
+            "startX": 226,
+            "startY": 2444,
+            "endX": 386,
+            "endY": 2491,
+            "text": "Monthly",
+            "startIndex": 2594,
+            "endIndex": 2600
+          },
+          {
+            "id": "token_0_395_2445_561_2490",
+            "startX": 395,
+            "startY": 2445,
+            "endX": 561,
+            "endY": 2490,
+            "text": "Housing",
+            "startIndex": 2602,
+            "endIndex": 2608
+          },
+          {
+            "id": "token_0_571_2446_742_2489",
+            "startX": 571,
+            "startY": 2446,
+            "endX": 742,
+            "endY": 2489,
+            "text": "Expense",
+            "startIndex": 2610,
+            "endIndex": 2616
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false,
+        "isSelected": false
+      },
+      {
+        "id": "1_9_1",
+        "headerId": "2",
+        "rowNumber": 9,
+        "columnNumber": 1,
+        "value": "$1,500.00/month (Rent)",
+        "startX": 1018,
+        "startY": 2438,
+        "endX": 2341,
+        "endY": 2496,
+        "tokens": [
+          {
+            "id": "token_0_1300_2442_1615_2489",
+            "startX": 1300,
+            "startY": 2442,
+            "endX": 1615,
+            "endY": 2489,
+            "text": "$1,500.00/month",
+            "startIndex": 2658,
+            "endIndex": 2672
+          },
+          {
+            "id": "token_0_1626_2445_1745_2489",
+            "startX": 1626,
+            "startY": 2445,
+            "endX": 1745,
+            "endY": 2489,
+            "text": "(Rent)",
+            "startIndex": 2674,
+            "endIndex": 2679
+          }
+        ],
+        "pageNumber": 1,
+        "isHeader": false,
+        "isDeleted": false,
+        "confidence": 0.1,
+        "isCorrected": false
+      }
+    ]
+  ],
+  "isDraft": false,
+  "customerId": "8651b864-1459-4e9e-903c-f43cec0f3e94",
+  "documentId": "14cdfdba-34d0-4209-bbf6-ebf771a5646e_document-1",
+  "createdDate": {
+    "$date": "2026-06-09T07:29:03.352Z"
+  },
+  "lastModifiedDate": {
+    "$date": "2026-06-09T07:29:03.352Z"
+  }
+}]
